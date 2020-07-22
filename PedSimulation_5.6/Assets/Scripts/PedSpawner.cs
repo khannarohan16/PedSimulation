@@ -20,14 +20,11 @@ public class PedSpawner : MonoBehaviour {
 			GameObject obj = Instantiate(pedPrefab);
 			Transform child = transform.GetChild(Random.Range(0, transform.childCount));
 			obj.GetComponent<CharacterController>().wayPoint = child.GetComponent<Waypoint>();
-			
-			//Vector3 pos = transform.TransformPoint(child.position);
 
-			print("Actual:" + child.position);
-			print("World" + transform.TransformPoint(child.position));
-			print("World" + transform.TransformPoint(child.localPosition));
+			Vector3 pos = child.position;
 
-			//obj.transform.position = transform.TransformPoint(child.position);
+			obj.transform.position = pos;
+			print(child.position);
 
 			count++;
 
