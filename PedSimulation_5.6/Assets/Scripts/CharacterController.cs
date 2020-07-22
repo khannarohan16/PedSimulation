@@ -12,7 +12,7 @@ public class CharacterController : MonoBehaviour
     [SerializeField]
     AnimatorOverrideController overrideController;
 
-    [SerializeField] Waypoint wayPoint;
+    public Waypoint wayPoint;
 
     [SerializeField] float walkSpeed;
     [SerializeField] float runSpeed;
@@ -26,6 +26,8 @@ public class CharacterController : MonoBehaviour
     bool isMoving;
     bool canMove = true;   //to determine whether character can move from idle state (in case of some idle animations having exit time
 
+    int direction;
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
@@ -37,6 +39,8 @@ public class CharacterController : MonoBehaviour
     {
         isMoving = false;
         StartCoroutine("ProcessState");
+
+        direction = Random.Range(0, 2);
     }
 
     private void Update()
@@ -48,7 +52,14 @@ public class CharacterController : MonoBehaviour
             animator.ResetTrigger("Run");
             animator.SetTrigger("Idle");
             StartCoroutine("ProcessState");
-            wayPoint = wayPoint.nextWaypoint;
+            //if(direction == 0)
+            //{
+            //    wayPoint = wayPoint.nextWaypoint;
+            //}
+            //else
+            //{
+            //    wayPoint = wayPoint.previousWaypoint;
+            //}
         }
     }
 
@@ -120,8 +131,8 @@ public class CharacterController : MonoBehaviour
 
                     if (wayPoint != null)
                     {
-                        Vector3 destination = wayPoint.GetPosition();
-                        navAgent.SetDestination(destination);
+                        //Vector3 destination = wayPoint.GetPosition();
+                        //navAgent.SetDestination(destination);
                     }
                 }
                 

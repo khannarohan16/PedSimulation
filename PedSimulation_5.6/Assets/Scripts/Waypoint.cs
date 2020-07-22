@@ -17,6 +17,13 @@ public class Waypoint : MonoBehaviour {
 		Vector3 minBound = transform.position + transform.right * radius;
 		Vector3 maxBound = transform.position - transform.right * radius;
 
-		return Vector3.Lerp(minBound, maxBound, Random.Range(0f, 1f));
+		Vector3 position = Vector3.Lerp(minBound, maxBound, Random.Range(0f, 1f));
+		//print(position);
+
+		position = transform.TransformPoint(position);
+		//print(position);
+
+		return position;
+ 
 	}
 }
