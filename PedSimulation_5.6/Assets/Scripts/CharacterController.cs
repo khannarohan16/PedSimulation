@@ -52,14 +52,14 @@ public class CharacterController : MonoBehaviour
             animator.ResetTrigger("Run");
             animator.SetTrigger("Idle");
             StartCoroutine("ProcessState");
-            //if(direction == 0)
-            //{
-            //    wayPoint = wayPoint.nextWaypoint;
-            //}
-            //else
-            //{
-            //    wayPoint = wayPoint.previousWaypoint;
-            //}
+            if (direction == 0)
+            {
+                wayPoint = wayPoint.nextWaypoint;
+            }
+            else
+            {
+                wayPoint = wayPoint.previousWaypoint;
+            }
         }
     }
 
@@ -129,11 +129,11 @@ public class CharacterController : MonoBehaviour
                         navAgent.speed = walkSpeed;
                     }
 
-                    if (wayPoint != null)
-                    {
-                        //Vector3 destination = wayPoint.GetPosition();
-                        //navAgent.SetDestination(destination);
-                    }
+                    //if (wayPoint != null)
+                    //{
+                    //    Vector3 destination = wayPoint.GetPosition();
+                    //    navAgent.SetDestination(destination);
+                    //}
                 }
                 
             }

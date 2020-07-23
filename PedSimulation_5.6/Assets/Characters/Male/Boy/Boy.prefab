@@ -682,6 +682,7 @@ GameObject:
   - component: {fileID: 95343370698353258}
   - component: {fileID: 114327804056517532}
   - component: {fileID: 195379843002593176}
+  - component: {fileID: 136034903133967782}
   m_Layer: 0
   m_Name: Boy
   m_TagString: Untagged
@@ -1935,7 +1936,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1584086070080588}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -35.26028, y: 0.25, z: -18.616064}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4387534270328996}
@@ -1993,6 +1994,19 @@ MonoBehaviour:
   maxDelay: 5
   hasAltIdle: 0
   canRun: 1
+--- !u!136 &136034903133967782
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1584086070080588}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.25
+  m_Height: 1.8
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.8, z: 0}
 --- !u!137 &137491811210430556
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -2099,7 +2113,7 @@ NavMeshAgent:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1584086070080588}
-  m_Enabled: 1
+  m_Enabled: 0
   m_AgentTypeID: 0
   m_Radius: 0.25
   m_Speed: 3.5
@@ -2112,5 +2126,5 @@ NavMeshAgent:
   m_AutoRepath: 1
   m_Height: 1.5
   m_BaseOffset: 0
-  m_WalkableMask: 4294967295
+  m_WalkableMask: 1
   m_ObstacleAvoidanceType: 4
