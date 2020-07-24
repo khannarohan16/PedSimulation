@@ -19,6 +19,10 @@ public class OuterCollider : MonoBehaviour {
 
 	void OnTriggerExit(Collider other)
 	{
+		if (pedSpawner.spawnPoints.Contains(other.GetComponent<Waypoint>()))
+		{
+			pedSpawner.spawnPoints.Remove(other.GetComponent<Waypoint>());
+		}
 		if (other.GetComponent<CharacterController>() != null)
 		{
 			pedSpawner.DeSpawn(other.gameObject);

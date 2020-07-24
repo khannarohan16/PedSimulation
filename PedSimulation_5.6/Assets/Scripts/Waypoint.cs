@@ -21,16 +21,10 @@ public class Waypoint : MonoBehaviour {
 	
 	public Vector3 GetPosition()
 	{
-		Vector3 minBound = transform.position + transform.right * radius;
-		Vector3 maxBound = transform.position - transform.right * radius;
+		Vector3 deviation = new Vector3(Random.Range(-radius, radius), 0, Random.Range(-radius, radius));
 
-		Vector3 position = Vector3.Lerp(minBound, maxBound, Random.Range(0f, 1f));
+		Vector3 position = transform.position + deviation;
 		
-
-		position = transform.position;
-		
-
 		return position;
- 
 	}
 }

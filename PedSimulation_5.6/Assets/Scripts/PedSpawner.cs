@@ -40,15 +40,17 @@ public class PedSpawner : MonoBehaviour {
 	IEnumerator PeriodicSpawn()
 	{
 		yield return new WaitForSeconds(spawnInterval);
-		if(inactivePeds.Count != 0 && spawnPoints.Count != 0)
+		if (inactivePeds.Count != 0 && spawnPoints.Count != 0)
 		{
+			print("Respawning");
 			foreach (var item in inactivePeds)
 			{
 				Waypoint randomPoint = spawnPoints[Random.Range(0, spawnPoints.Count)];
 				item.transform.position = randomPoint.GetPosition();
 				item.SetActive(true);
-				item.GetComponent<CharacterController>().wayPoint = randomPoint;
+				item.GetComponent<CharacterController>().wayPoint = randomPoint;	
 			}
+			inactivePeds.Clear();
 		}
 		StartCoroutine("PeriodicSpawn");
 	}
