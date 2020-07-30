@@ -222,7 +222,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1313342585}
   nextWaypoint: {fileID: 403607573}
-  radius: 2
+  radius: 1
 --- !u!4 &5273703
 Transform:
   m_ObjectHideFlags: 0
@@ -555,7 +555,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1916322747}
   nextWaypoint: {fileID: 1527925526}
-  radius: 2
+  radius: 1
 --- !u!4 &21246513
 Transform:
   m_ObjectHideFlags: 0
@@ -724,7 +724,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 858010360}
   nextWaypoint: {fileID: 1666636911}
-  radius: 2
+  radius: 1
 --- !u!4 &25434380
 Transform:
   m_ObjectHideFlags: 0
@@ -767,7 +767,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 39484805}
   nextWaypoint: {fileID: 232542526}
-  radius: 2
+  radius: 1
 --- !u!4 &28478557
 Transform:
   m_ObjectHideFlags: 0
@@ -892,7 +892,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1739126073}
   nextWaypoint: {fileID: 1545504472}
-  radius: 2
+  radius: 1
 --- !u!4 &30185291
 Transform:
   m_ObjectHideFlags: 0
@@ -935,7 +935,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 607265118}
   nextWaypoint: {fileID: 680991220}
-  radius: 2
+  radius: 1
 --- !u!4 &32043234
 Transform:
   m_ObjectHideFlags: 0
@@ -978,7 +978,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1347243310}
   nextWaypoint: {fileID: 28478556}
-  radius: 2
+  radius: 1
 --- !u!4 &39484806
 Transform:
   m_ObjectHideFlags: 0
@@ -1021,7 +1021,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2012101762}
   nextWaypoint: {fileID: 2054171817}
-  radius: 2
+  radius: 1
 --- !u!4 &43946238
 Transform:
   m_ObjectHideFlags: 0
@@ -1064,7 +1064,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 152884459}
   nextWaypoint: {fileID: 505706516}
-  radius: 2
+  radius: 1
 --- !u!4 &50285873
 Transform:
   m_ObjectHideFlags: 0
@@ -1763,7 +1763,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 966806181}
   nextWaypoint: {fileID: 574892129}
-  radius: 2
+  radius: 1
 --- !u!4 &84960683
 Transform:
   m_ObjectHideFlags: 0
@@ -1819,7 +1819,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1963780147}
   nextWaypoint: {fileID: 1677995264}
-  radius: 2
+  radius: 1
 --- !u!1 &90975619
 GameObject:
   m_ObjectHideFlags: 0
@@ -2013,7 +2013,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 434955390}
   nextWaypoint: {fileID: 829526376}
-  radius: 2
+  radius: 1
 --- !u!4 &96570788
 Transform:
   m_ObjectHideFlags: 0
@@ -2056,7 +2056,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1527925526}
   nextWaypoint: {fileID: 258879836}
-  radius: 2
+  radius: 1
 --- !u!4 &97597045
 Transform:
   m_ObjectHideFlags: 0
@@ -2324,6 +2324,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 105266228}
+  - component: {fileID: 105266227}
   m_Layer: 0
   m_Name: WaypointRoot (11)
   m_TagString: Untagged
@@ -2331,6 +2332,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &105266227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 105266226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &105266228
 Transform:
   m_ObjectHideFlags: 0
@@ -2383,7 +2397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2040470394}
   nextWaypoint: {fileID: 1537648798}
-  radius: 2
+  radius: 1
 --- !u!4 &109795105
 Transform:
   m_ObjectHideFlags: 0
@@ -2508,7 +2522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1960185253}
   nextWaypoint: {fileID: 393194518}
-  radius: 2
+  radius: 1
 --- !u!4 &117726667
 Transform:
   m_ObjectHideFlags: 0
@@ -2612,6 +2626,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 120738021}
+  - component: {fileID: 120738020}
   m_Layer: 0
   m_Name: WaypointRoot (24)
   m_TagString: Untagged
@@ -2619,6 +2634,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &120738020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 120738019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &120738021
 Transform:
   m_ObjectHideFlags: 0
@@ -3081,7 +3109,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1772535327}
   nextWaypoint: {fileID: 845861848}
-  radius: 2
+  radius: 1
 --- !u!4 &132592656
 Transform:
   m_ObjectHideFlags: 0
@@ -3288,7 +3316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2028321913}
   nextWaypoint: {fileID: 1260711034}
-  radius: 2
+  radius: 1
 --- !u!4 &140013675
 Transform:
   m_ObjectHideFlags: 0
@@ -3659,7 +3687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1421885575}
   nextWaypoint: {fileID: 50285872}
-  radius: 2
+  radius: 1
 --- !u!4 &152884460
 Transform:
   m_ObjectHideFlags: 0
@@ -3912,12 +3940,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 166531039}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 169.08, y: 6.7, z: 9.34}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_Father: {fileID: 870193555}
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &168609650
 GameObject:
@@ -4194,7 +4222,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2067932092}
   nextWaypoint: {fileID: 1597608319}
-  radius: 2
+  radius: 1
 --- !u!4 &179610933
 Transform:
   m_ObjectHideFlags: 0
@@ -4457,7 +4485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1220941689}
   nextWaypoint: {fileID: 427783899}
-  radius: 2
+  radius: 1
 --- !u!4 &186667201
 Transform:
   m_ObjectHideFlags: 0
@@ -4546,12 +4574,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 190603230}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 129.15, y: 6.7, z: 46.1}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_Father: {fileID: 870193555}
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &191268338
 GameObject:
@@ -4582,7 +4610,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1286356798}
   nextWaypoint: {fileID: 1567898283}
-  radius: 2
+  radius: 1
 --- !u!4 &191268340
 Transform:
   m_ObjectHideFlags: 0
@@ -5035,7 +5063,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1174099990}
   nextWaypoint: {fileID: 1466024003}
-  radius: 2
+  radius: 1
 --- !u!4 &205219941
 Transform:
   m_ObjectHideFlags: 0
@@ -5078,7 +5106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 432397384}
   nextWaypoint: {fileID: 450173994}
-  radius: 2
+  radius: 1
 --- !u!4 &207146158
 Transform:
   m_ObjectHideFlags: 0
@@ -5121,7 +5149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1493230779}
   nextWaypoint: {fileID: 858010360}
-  radius: 2
+  radius: 1
 --- !u!4 &207678710
 Transform:
   m_ObjectHideFlags: 0
@@ -5246,7 +5274,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 468773142}
   nextWaypoint: {fileID: 824302519}
-  radius: 2
+  radius: 1
 --- !u!4 &210924482
 Transform:
   m_ObjectHideFlags: 0
@@ -5289,7 +5317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1168203813}
   nextWaypoint: {fileID: 1916322747}
-  radius: 2
+  radius: 1
 --- !u!4 &211994696
 Transform:
   m_ObjectHideFlags: 0
@@ -5414,7 +5442,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 956361283}
   nextWaypoint: {fileID: 396175442}
-  radius: 2
+  radius: 1
 --- !u!4 &218271242
 Transform:
   m_ObjectHideFlags: 0
@@ -5518,6 +5546,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 220598244}
+  - component: {fileID: 220598243}
   m_Layer: 0
   m_Name: WaypointRoot (23)
   m_TagString: Untagged
@@ -5525,6 +5554,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &220598243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 220598242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &220598244
 Transform:
   m_ObjectHideFlags: 0
@@ -5590,7 +5632,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1173650298}
   nextWaypoint: {fileID: 1002811249}
-  radius: 2
+  radius: 1
 --- !u!1 &224722314
 GameObject:
   m_ObjectHideFlags: 0
@@ -5620,7 +5662,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 858670190}
   nextWaypoint: {fileID: 1942330372}
-  radius: 2
+  radius: 1
 --- !u!4 &224722316
 Transform:
   m_ObjectHideFlags: 0
@@ -5789,7 +5831,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 28478556}
   nextWaypoint: {fileID: 1139003791}
-  radius: 2
+  radius: 1
 --- !u!4 &232542527
 Transform:
   m_ObjectHideFlags: 0
@@ -6042,12 +6084,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 243316986}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -25.03, y: 6.7, z: -30.61}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 870193555}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &247925310
 GameObject:
@@ -6124,12 +6166,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 247925310}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 129.15, y: 6.7, z: -30.61}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_Father: {fileID: 870193555}
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &249025435
 GameObject:
@@ -6406,7 +6448,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 845187076}
   nextWaypoint: {fileID: 434955390}
-  radius: 2
+  radius: 1
 --- !u!4 &254269995
 Transform:
   m_ObjectHideFlags: 0
@@ -6462,7 +6504,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 97597044}
   nextWaypoint: {fileID: 1262473073}
-  radius: 2
+  radius: 1
 --- !u!1 &259589055
 GameObject:
   m_ObjectHideFlags: 0
@@ -6587,7 +6629,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 396175442}
   nextWaypoint: {fileID: 1718102137}
-  radius: 2
+  radius: 1
 --- !u!1 &262405090
 GameObject:
   m_ObjectHideFlags: 0
@@ -6945,7 +6987,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1494411779}
   nextWaypoint: {fileID: 596046763}
-  radius: 2
+  radius: 1
 --- !u!4 &267553145
 Transform:
   m_ObjectHideFlags: 0
@@ -6988,7 +7030,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 840962945}
   nextWaypoint: {fileID: 1421885575}
-  radius: 2
+  radius: 1
 --- !u!4 &267980423
 Transform:
   m_ObjectHideFlags: 0
@@ -7113,7 +7155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1713671906}
   nextWaypoint: {fileID: 1797624261}
-  radius: 2
+  radius: 1
 --- !u!4 &273413478
 Transform:
   m_ObjectHideFlags: 0
@@ -7238,7 +7280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2062080252}
   nextWaypoint: {fileID: 987453545}
-  radius: 2
+  radius: 1
 --- !u!4 &276389560
 Transform:
   m_ObjectHideFlags: 0
@@ -7445,7 +7487,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 661691704}
   nextWaypoint: {fileID: 577118385}
-  radius: 2
+  radius: 1
 --- !u!4 &283139210
 Transform:
   m_ObjectHideFlags: 0
@@ -7501,7 +7543,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1760271290}
   nextWaypoint: {fileID: 667204337}
-  radius: 2
+  radius: 1
 --- !u!1 &289777923
 GameObject:
   m_ObjectHideFlags: 0
@@ -7544,7 +7586,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1597608319}
   nextWaypoint: {fileID: 456371105}
-  radius: 2
+  radius: 1
 --- !u!1 &292281041
 GameObject:
   m_ObjectHideFlags: 0
@@ -7820,7 +7862,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1553710116}
   nextWaypoint: {fileID: 1708590307}
-  radius: 2
+  radius: 1
 --- !u!4 &305525884
 Transform:
   m_ObjectHideFlags: 0
@@ -8319,12 +8361,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 322909347}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 51.86, y: 6.7, z: -30.61}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_Father: {fileID: 870193555}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &328503393
 GameObject:
@@ -8355,7 +8397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1942330372}
   nextWaypoint: {fileID: 1414092060}
-  radius: 2
+  radius: 1
 --- !u!4 &328503395
 Transform:
   m_ObjectHideFlags: 0
@@ -8726,7 +8768,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1252862726}
   nextWaypoint: {fileID: 1438587729}
-  radius: 2
+  radius: 1
 --- !u!4 &333181091
 Transform:
   m_ObjectHideFlags: 0
@@ -9015,7 +9057,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 385343356}
   nextWaypoint: {fileID: 1299815341}
-  radius: 2
+  radius: 1
 --- !u!4 &346448556
 Transform:
   m_ObjectHideFlags: 0
@@ -9304,7 +9346,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 677260858}
   nextWaypoint: {fileID: 561765281}
-  radius: 2
+  radius: 1
 --- !u!4 &368732935
 Transform:
   m_ObjectHideFlags: 0
@@ -9557,12 +9599,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 375822356}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -25.03, y: 6.7, z: 86.51}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 870193555}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &382291123
 GameObject:
@@ -9732,7 +9774,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 393194518}
   nextWaypoint: {fileID: 346448555}
-  radius: 2
+  radius: 1
 --- !u!1 &386562029
 GameObject:
   m_ObjectHideFlags: 0
@@ -9844,7 +9886,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 117726666}
   nextWaypoint: {fileID: 385343356}
-  radius: 2
+  radius: 1
 --- !u!4 &393194519
 Transform:
   m_ObjectHideFlags: 0
@@ -9969,7 +10011,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 218271241}
   nextWaypoint: {fileID: 261338674}
-  radius: 2
+  radius: 1
 --- !u!4 &396175443
 Transform:
   m_ObjectHideFlags: 0
@@ -10258,7 +10300,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 5273702}
   nextWaypoint: {fileID: 551508269}
-  radius: 2
+  radius: 1
 --- !u!4 &403607574
 Transform:
   m_ObjectHideFlags: 0
@@ -10280,6 +10322,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 406798841}
+  - component: {fileID: 406798840}
   m_Layer: 0
   m_Name: WaypointRoot (6)
   m_TagString: Untagged
@@ -10287,6 +10330,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &406798840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 406798839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &406798841
 Transform:
   m_ObjectHideFlags: 0
@@ -10585,7 +10641,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 762174047}
   nextWaypoint: {fileID: 858433187}
-  radius: 2
+  radius: 1
 --- !u!4 &411211010
 Transform:
   m_ObjectHideFlags: 0
@@ -10710,7 +10766,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2105707401}
   nextWaypoint: {fileID: 814821880}
-  radius: 2
+  radius: 1
 --- !u!4 &412164366
 Transform:
   m_ObjectHideFlags: 0
@@ -10930,7 +10986,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1397796064}
   nextWaypoint: {fileID: 942206039}
-  radius: 2
+  radius: 1
 --- !u!1 &426500820
 GameObject:
   m_ObjectHideFlags: 0
@@ -10960,7 +11016,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1465389367}
   nextWaypoint: {fileID: 1812833233}
-  radius: 2
+  radius: 1
 --- !u!4 &426500822
 Transform:
   m_ObjectHideFlags: 0
@@ -11047,7 +11103,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 186667200}
   nextWaypoint: {fileID: 1886359314}
-  radius: 2
+  radius: 1
 --- !u!4 &427783900
 Transform:
   m_ObjectHideFlags: 0
@@ -11151,6 +11207,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 428512460}
+  - component: {fileID: 428512459}
   m_Layer: 0
   m_Name: WaypointRoot (22)
   m_TagString: Untagged
@@ -11158,6 +11215,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &428512459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 428512458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &428512460
 Transform:
   m_ObjectHideFlags: 0
@@ -11374,7 +11444,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1032092586}
   nextWaypoint: {fileID: 1477028297}
-  radius: 2
+  radius: 1
 --- !u!4 &432378762
 Transform:
   m_ObjectHideFlags: 0
@@ -11417,7 +11487,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1769734186}
   nextWaypoint: {fileID: 207146157}
-  radius: 2
+  radius: 1
 --- !u!4 &432397385
 Transform:
   m_ObjectHideFlags: 0
@@ -11624,7 +11694,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 254269994}
   nextWaypoint: {fileID: 96570787}
-  radius: 2
+  radius: 1
 --- !u!4 &434955391
 Transform:
   m_ObjectHideFlags: 0
@@ -11749,7 +11819,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1812833233}
   nextWaypoint: {fileID: 1981222227}
-  radius: 2
+  radius: 1
 --- !u!4 &442138008
 Transform:
   m_ObjectHideFlags: 0
@@ -11956,7 +12026,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 769476814}
   nextWaypoint: {fileID: 762174047}
-  radius: 2
+  radius: 1
 --- !u!4 &449658892
 Transform:
   m_ObjectHideFlags: 0
@@ -12094,7 +12164,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 207146157}
   nextWaypoint: {fileID: 803370307}
-  radius: 2
+  radius: 1
 --- !u!1 &450254302
 GameObject:
   m_ObjectHideFlags: 0
@@ -12332,7 +12402,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 289777925}
   nextWaypoint: {fileID: 1700699665}
-  radius: 2
+  radius: 1
 --- !u!4 &456371106
 Transform:
   m_ObjectHideFlags: 0
@@ -12375,7 +12445,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 506238631}
   nextWaypoint: {fileID: 1449900283}
-  radius: 2
+  radius: 1
 --- !u!4 &462051899
 Transform:
   m_ObjectHideFlags: 0
@@ -12746,7 +12816,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1131887263}
   nextWaypoint: {fileID: 210924481}
-  radius: 2
+  radius: 1
 --- !u!4 &468773143
 Transform:
   m_ObjectHideFlags: 0
@@ -13014,6 +13084,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 473818693}
+  - component: {fileID: 473818692}
   m_Layer: 0
   m_Name: WaypointRoot (9)
   m_TagString: Untagged
@@ -13021,6 +13092,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &473818692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 473818691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &473818693
 Transform:
   m_ObjectHideFlags: 0
@@ -13073,7 +13157,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1299815341}
   nextWaypoint: {fileID: 1488678446}
-  radius: 2
+  radius: 1
 --- !u!4 &474276789
 Transform:
   m_ObjectHideFlags: 0
@@ -13095,6 +13179,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 482079698}
+  - component: {fileID: 482079697}
   m_Layer: 0
   m_Name: WaypointRoot (1)
   m_TagString: Untagged
@@ -13102,6 +13187,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &482079697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 482079696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &482079698
 Transform:
   m_ObjectHideFlags: 0
@@ -13249,7 +13347,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1708590307}
   nextWaypoint: {fileID: 966806181}
-  radius: 2
+  radius: 1
 --- !u!1 &487961491
 GameObject:
   m_ObjectHideFlags: 0
@@ -13443,7 +13541,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1981222227}
   nextWaypoint: {fileID: 1090970850}
-  radius: 2
+  radius: 1
 --- !u!4 &502079436
 Transform:
   m_ObjectHideFlags: 0
@@ -13486,7 +13584,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 591393409}
   nextWaypoint: {fileID: 887251516}
-  radius: 2
+  radius: 1
 --- !u!4 &504648478
 Transform:
   m_ObjectHideFlags: 0
@@ -13542,7 +13640,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 50285872}
   nextWaypoint: {fileID: 2124581180}
-  radius: 2
+  radius: 1
 --- !u!1 &506238630
 GameObject:
   m_ObjectHideFlags: 0
@@ -13572,7 +13670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2087670829}
   nextWaypoint: {fileID: 462051898}
-  radius: 2
+  radius: 1
 --- !u!4 &506238632
 Transform:
   m_ObjectHideFlags: 0
@@ -13943,7 +14041,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 874186571}
   nextWaypoint: {fileID: 1465389367}
-  radius: 2
+  radius: 1
 --- !u!4 &514289800
 Transform:
   m_ObjectHideFlags: 0
@@ -13986,7 +14084,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1226082492}
   nextWaypoint: {fileID: 1191258126}
-  radius: 2
+  radius: 1
 --- !u!4 &515609473
 Transform:
   m_ObjectHideFlags: 0
@@ -14073,7 +14171,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1090970850}
   nextWaypoint: {fileID: 874186571}
-  radius: 2
+  radius: 1
 --- !u!4 &523588515
 Transform:
   m_ObjectHideFlags: 0
@@ -14280,7 +14378,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 886724030}
   nextWaypoint: {fileID: 1482020137}
-  radius: 2
+  radius: 1
 --- !u!4 &535994107
 Transform:
   m_ObjectHideFlags: 0
@@ -14405,7 +14503,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1581849533}
   nextWaypoint: {fileID: 1585269020}
-  radius: 2
+  radius: 1
 --- !u!4 &538425310
 Transform:
   m_ObjectHideFlags: 0
@@ -14694,7 +14792,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 403607573}
   nextWaypoint: {fileID: 1649002951}
-  radius: 2
+  radius: 1
 --- !u!4 &551508270
 Transform:
   m_ObjectHideFlags: 0
@@ -14983,7 +15081,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 368732934}
   nextWaypoint: {fileID: 2114056415}
-  radius: 2
+  radius: 1
 --- !u!4 &561765282
 Transform:
   m_ObjectHideFlags: 0
@@ -15318,12 +15416,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 571697485}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 91.79, y: 6.7, z: 9.34}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 870193555}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &572659432
 GameObject:
@@ -15354,7 +15452,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 845861848}
   nextWaypoint: {fileID: 1095101770}
-  radius: 2
+  radius: 1
 --- !u!4 &572659434
 Transform:
   m_ObjectHideFlags: 0
@@ -15561,7 +15659,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1143627965}
   nextWaypoint: {fileID: 699787363}
-  radius: 2
+  radius: 1
 --- !u!4 &574336765
 Transform:
   m_ObjectHideFlags: 0
@@ -15604,7 +15702,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 84960682}
   nextWaypoint: {fileID: 591393409}
-  radius: 2
+  radius: 1
 --- !u!4 &574892130
 Transform:
   m_ObjectHideFlags: 0
@@ -15647,7 +15745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 283139209}
   nextWaypoint: {fileID: 1769734186}
-  radius: 2
+  radius: 1
 --- !u!4 &577118386
 Transform:
   m_ObjectHideFlags: 0
@@ -16018,7 +16116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 574892129}
   nextWaypoint: {fileID: 504648477}
-  radius: 2
+  radius: 1
 --- !u!4 &591393410
 Transform:
   m_ObjectHideFlags: 0
@@ -16105,7 +16203,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 267553144}
   nextWaypoint: {fileID: 1883734391}
-  radius: 2
+  radius: 1
 --- !u!4 &596046764
 Transform:
   m_ObjectHideFlags: 0
@@ -16230,7 +16328,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1095101770}
   nextWaypoint: {fileID: 32043233}
-  radius: 2
+  radius: 1
 --- !u!4 &607265119
 Transform:
   m_ObjectHideFlags: 0
@@ -16401,12 +16499,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 622893290}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 51.86, y: 6.7, z: 46.1}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_Father: {fileID: 870193555}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &623798360
 GameObject:
@@ -16519,7 +16617,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1871214319}
   nextWaypoint: {fileID: 1397796064}
-  radius: 2
+  radius: 1
 --- !u!4 &629138243
 Transform:
   m_ObjectHideFlags: 0
@@ -16724,7 +16822,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 643584503}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 30}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1267424833}
@@ -17001,7 +17099,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 772062393}
   nextWaypoint: {fileID: 283139209}
-  radius: 2
+  radius: 1
 --- !u!4 &661691705
 Transform:
   m_ObjectHideFlags: 0
@@ -17206,7 +17304,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 664084840}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 30}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1267424833}
@@ -17402,7 +17500,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 284263646}
   nextWaypoint: {fileID: 1621666961}
-  radius: 2
+  radius: 1
 --- !u!4 &667204338
 Transform:
   m_ObjectHideFlags: 0
@@ -17691,7 +17789,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 711353192}
   nextWaypoint: {fileID: 368732934}
-  radius: 2
+  radius: 1
 --- !u!4 &677260859
 Transform:
   m_ObjectHideFlags: 0
@@ -17898,7 +17996,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 861160280}
   nextWaypoint: {fileID: 1693890526}
-  radius: 2
+  radius: 1
 --- !u!4 &678878753
 Transform:
   m_ObjectHideFlags: 0
@@ -17954,7 +18052,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 32043233}
   nextWaypoint: {fileID: 1066529881}
-  radius: 2
+  radius: 1
 --- !u!1 &687274189
 GameObject:
   m_ObjectHideFlags: 0
@@ -18312,7 +18410,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 574336764}
   nextWaypoint: {fileID: 1606388265}
-  radius: 2
+  radius: 1
 --- !u!4 &699787364
 Transform:
   m_ObjectHideFlags: 0
@@ -18748,7 +18846,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1438587729}
   nextWaypoint: {fileID: 677260858}
-  radius: 2
+  radius: 1
 --- !u!4 &711353193
 Transform:
   m_ObjectHideFlags: 0
@@ -18852,6 +18950,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 712655813}
+  - component: {fileID: 712655812}
   m_Layer: 0
   m_Name: WaypointRoot (13)
   m_TagString: Untagged
@@ -18859,6 +18958,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &712655812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 712655811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &712655813
 Transform:
   m_ObjectHideFlags: 0
@@ -18911,7 +19023,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1700699665}
   nextWaypoint: {fileID: 1085317088}
-  radius: 2
+  radius: 1
 --- !u!4 &713368459
 Transform:
   m_ObjectHideFlags: 0
@@ -18954,7 +19066,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2077611727}
   nextWaypoint: {fileID: 1064811425}
-  radius: 2
+  radius: 1
 --- !u!4 &716318787
 Transform:
   m_ObjectHideFlags: 0
@@ -19817,7 +19929,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 844714062}
   nextWaypoint: {fileID: 2102984134}
-  radius: 2
+  radius: 1
 --- !u!4 &750904814
 Transform:
   m_ObjectHideFlags: 0
@@ -19942,7 +20054,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1808694905}
   nextWaypoint: {fileID: 1313342585}
-  radius: 2
+  radius: 1
 --- !u!4 &754681426
 Transform:
   m_ObjectHideFlags: 0
@@ -20149,7 +20261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 449658891}
   nextWaypoint: {fileID: 411211009}
-  radius: 2
+  radius: 1
 --- !u!4 &762174048
 Transform:
   m_ObjectHideFlags: 0
@@ -20205,7 +20317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1446005373}
   nextWaypoint: {fileID: 1226082492}
-  radius: 2
+  radius: 1
 --- !u!1 &766719370
 GameObject:
   m_ObjectHideFlags: 0
@@ -20317,7 +20429,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1915454123}
   nextWaypoint: {fileID: 858670190}
-  radius: 2
+  radius: 1
 --- !u!4 &768685721
 Transform:
   m_ObjectHideFlags: 0
@@ -20360,7 +20472,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1260711034}
   nextWaypoint: {fileID: 449658891}
-  radius: 2
+  radius: 1
 --- !u!4 &769476815
 Transform:
   m_ObjectHideFlags: 0
@@ -20403,7 +20515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1039428201}
   nextWaypoint: {fileID: 661691704}
-  radius: 2
+  radius: 1
 --- !u!4 &772062394
 Transform:
   m_ObjectHideFlags: 0
@@ -21102,7 +21214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 450173994}
   nextWaypoint: {fileID: 1039428201}
-  radius: 2
+  radius: 1
 --- !u!4 &803370308
 Transform:
   m_ObjectHideFlags: 0
@@ -21145,7 +21257,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 412164365}
   nextWaypoint: {fileID: 1739126073}
-  radius: 2
+  radius: 1
 --- !u!4 &814821881
 Transform:
   m_ObjectHideFlags: 0
@@ -21270,7 +21382,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 210924481}
   nextWaypoint: {fileID: 1579212795}
-  radius: 2
+  radius: 1
 --- !u!4 &824302520
 Transform:
   m_ObjectHideFlags: 0
@@ -21313,7 +21425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1230818347}
   nextWaypoint: {fileID: 947223224}
-  radius: 2
+  radius: 1
 --- !u!4 &827941040
 Transform:
   m_ObjectHideFlags: 0
@@ -21356,7 +21468,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 96570787}
   nextWaypoint: {fileID: 2073933850}
-  radius: 2
+  radius: 1
 --- !u!4 &829526377
 Transform:
   m_ObjectHideFlags: 0
@@ -21624,6 +21736,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 840128841}
+  - component: {fileID: 840128840}
   m_Layer: 0
   m_Name: WaypointRoot (17)
   m_TagString: Untagged
@@ -21631,6 +21744,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &840128840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 840128839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &840128841
 Transform:
   m_ObjectHideFlags: 0
@@ -21683,7 +21809,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1567898283}
   nextWaypoint: {fileID: 267980422}
-  radius: 2
+  radius: 1
 --- !u!4 &840962946
 Transform:
   m_ObjectHideFlags: 0
@@ -21726,7 +21852,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1579212795}
   nextWaypoint: {fileID: 1418535011}
-  radius: 2
+  radius: 1
 --- !u!4 &843363899
 Transform:
   m_ObjectHideFlags: 0
@@ -21769,7 +21895,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1883734391}
   nextWaypoint: {fileID: 750904813}
-  radius: 2
+  radius: 1
 --- !u!4 &844714063
 Transform:
   m_ObjectHideFlags: 0
@@ -21812,7 +21938,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1002811249}
   nextWaypoint: {fileID: 254269994}
-  radius: 2
+  radius: 1
 --- !u!4 &845187077
 Transform:
   m_ObjectHideFlags: 0
@@ -21855,7 +21981,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 132592655}
   nextWaypoint: {fileID: 572659433}
-  radius: 2
+  radius: 1
 --- !u!4 &845861849
 Transform:
   m_ObjectHideFlags: 0
@@ -21942,7 +22068,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1866311864}
   nextWaypoint: {fileID: 1446005373}
-  radius: 2
+  radius: 1
 --- !u!4 &848261323
 Transform:
   m_ObjectHideFlags: 0
@@ -22113,12 +22239,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 851793761}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 14.9, y: 6.7, z: 46.1}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 870193555}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &854469440
 GameObject:
@@ -22231,7 +22357,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 207678709}
   nextWaypoint: {fileID: 25434379}
-  radius: 2
+  radius: 1
 --- !u!4 &858010361
 Transform:
   m_ObjectHideFlags: 0
@@ -22287,7 +22413,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 411211009}
   nextWaypoint: {fileID: 1393716276}
-  radius: 2
+  radius: 1
 --- !u!1 &858670189
 GameObject:
   m_ObjectHideFlags: 0
@@ -22317,7 +22443,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 768685720}
   nextWaypoint: {fileID: 224722315}
-  radius: 2
+  radius: 1
 --- !u!4 &858670191
 Transform:
   m_ObjectHideFlags: 0
@@ -22442,7 +22568,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2102984134}
   nextWaypoint: {fileID: 678878752}
-  radius: 2
+  radius: 1
 --- !u!4 &861160281
 Transform:
   m_ObjectHideFlags: 0
@@ -22538,6 +22664,62 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 868392143}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &870193554
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 870193555}
+  m_Layer: 0
+  m_Name: BuildingHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &870193555
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 870193554}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1925317562}
+  - {fileID: 1130882103}
+  - {fileID: 375822360}
+  - {fileID: 243316990}
+  - {fileID: 1562801817}
+  - {fileID: 1682322005}
+  - {fileID: 851793765}
+  - {fileID: 1689712751}
+  - {fileID: 571697489}
+  - {fileID: 1214502610}
+  - {fileID: 1477564062}
+  - {fileID: 2044196486}
+  - {fileID: 322909351}
+  - {fileID: 1290506563}
+  - {fileID: 622893294}
+  - {fileID: 2039636488}
+  - {fileID: 1328682794}
+  - {fileID: 190603234}
+  - {fileID: 2113155931}
+  - {fileID: 247925314}
+  - {fileID: 1874162660}
+  - {fileID: 1161194766}
+  - {fileID: 1120284877}
+  - {fileID: 166531043}
+  - {fileID: 1058187127}
+  - {fileID: 883321405}
+  - {fileID: 1960306409}
+  - {fileID: 1400678060}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &871018256
 GameObject:
   m_ObjectHideFlags: 0
@@ -22826,7 +23008,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 523588514}
   nextWaypoint: {fileID: 514289799}
-  radius: 2
+  radius: 1
 --- !u!1 &874673015
 GameObject:
   m_ObjectHideFlags: 0
@@ -22938,7 +23120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1422255411}
   nextWaypoint: {fileID: 1984849972}
-  radius: 2
+  radius: 1
 --- !u!4 &876452788
 Transform:
   m_ObjectHideFlags: 0
@@ -23191,12 +23373,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 883321401}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 205.96, y: 6.7, z: 46.1}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_Father: {fileID: 870193555}
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &885396798
 GameObject:
@@ -23309,7 +23491,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1606388265}
   nextWaypoint: {fileID: 535994106}
-  radius: 2
+  radius: 1
 --- !u!4 &886724031
 Transform:
   m_ObjectHideFlags: 0
@@ -23352,7 +23534,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 504648477}
   nextWaypoint: {fileID: 1553710116}
-  radius: 2
+  radius: 1
 --- !u!4 &887251517
 Transform:
   m_ObjectHideFlags: 0
@@ -23559,7 +23741,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1316182898}
   nextWaypoint: {fileID: 1834758793}
-  radius: 2
+  radius: 1
 --- !u!4 &895800476
 Transform:
   m_ObjectHideFlags: 0
@@ -23810,7 +23992,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1794072292}
   nextWaypoint: {fileID: 1485602128}
-  radius: 2
+  radius: 1
 --- !u!4 &914408581
 Transform:
   m_ObjectHideFlags: 0
@@ -24635,7 +24817,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1666636911}
   nextWaypoint: {fileID: 1640012361}
-  radius: 2
+  radius: 1
 --- !u!4 &937493318
 Transform:
   m_ObjectHideFlags: 0
@@ -24678,7 +24860,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 420203849}
   nextWaypoint: {fileID: 1963000753}
-  radius: 2
+  radius: 1
 --- !u!4 &942206040
 Transform:
   m_ObjectHideFlags: 0
@@ -24803,7 +24985,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 827941039}
   nextWaypoint: {fileID: 1524502161}
-  radius: 2
+  radius: 1
 --- !u!4 &947223225
 Transform:
   m_ObjectHideFlags: 0
@@ -25023,7 +25205,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1139003791}
   nextWaypoint: {fileID: 1095489725}
-  radius: 2
+  radius: 1
 --- !u!1 &951721522
 GameObject:
   m_ObjectHideFlags: 0
@@ -25219,7 +25401,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1092408059}
   nextWaypoint: {fileID: 218271241}
-  radius: 2
+  radius: 1
 --- !u!4 &956361284
 Transform:
   m_ObjectHideFlags: 0
@@ -25581,7 +25763,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 486996802}
   nextWaypoint: {fileID: 84960682}
-  radius: 2
+  radius: 1
 --- !u!4 &966806182
 Transform:
   m_ObjectHideFlags: 0
@@ -25965,7 +26147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1114735158}
   nextWaypoint: {fileID: 1144610987}
-  radius: 2
+  radius: 1
 --- !u!1 &987453543
 GameObject:
   m_ObjectHideFlags: 0
@@ -26008,7 +26190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 276389559}
   nextWaypoint: {fileID: 1316182898}
-  radius: 2
+  radius: 1
 --- !u!1 &987842427
 GameObject:
   m_ObjectHideFlags: 0
@@ -26574,7 +26756,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 221722231}
   nextWaypoint: {fileID: 845187076}
-  radius: 2
+  radius: 1
 --- !u!4 &1002811250
 Transform:
   m_ObjectHideFlags: 0
@@ -27006,6 +27188,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1024000409}
+  - component: {fileID: 1024000408}
   m_Layer: 0
   m_Name: WaypointRoot (14)
   m_TagString: Untagged
@@ -27013,6 +27196,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1024000408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1024000407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1024000409
 Transform:
   m_ObjectHideFlags: 0
@@ -27065,7 +27261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1739686985}
   nextWaypoint: {fileID: 2049480373}
-  radius: 2
+  radius: 1
 --- !u!4 &1024335173
 Transform:
   m_ObjectHideFlags: 0
@@ -27087,6 +27283,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1028678809}
+  - component: {fileID: 1028678808}
   m_Layer: 0
   m_Name: WaypointRoot (12)
   m_TagString: Untagged
@@ -27094,6 +27291,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1028678808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1028678807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1028678809
 Transform:
   m_ObjectHideFlags: 0
@@ -27228,7 +27438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1414092060}
   nextWaypoint: {fileID: 432378761}
-  radius: 2
+  radius: 1
 --- !u!4 &1032092587
 Transform:
   m_ObjectHideFlags: 0
@@ -27271,7 +27481,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2073933850}
   nextWaypoint: {fileID: 1173650298}
-  radius: 2
+  radius: 1
 --- !u!4 &1035215041
 Transform:
   m_ObjectHideFlags: 0
@@ -27396,7 +27606,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 803370307}
   nextWaypoint: {fileID: 772062393}
-  radius: 2
+  radius: 1
 --- !u!4 &1039428202
 Transform:
   m_ObjectHideFlags: 0
@@ -27521,7 +27731,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1144610987}
   nextWaypoint: {fileID: 2009632564}
-  radius: 2
+  radius: 1
 --- !u!4 &1046108259
 Transform:
   m_ObjectHideFlags: 0
@@ -27774,12 +27984,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1058187123}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 205.96, y: 6.7, z: 9.34}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_Father: {fileID: 870193555}
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1058276482
 GameObject:
@@ -27892,7 +28102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1393716276}
   nextWaypoint: {fileID: 2028321913}
-  radius: 2
+  radius: 1
 --- !u!4 &1060706443
 Transform:
   m_ObjectHideFlags: 0
@@ -28017,7 +28227,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 716318786}
   nextWaypoint: {fileID: 1347243310}
-  radius: 2
+  radius: 1
 --- !u!4 &1064811426
 Transform:
   m_ObjectHideFlags: 0
@@ -28060,7 +28270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 680991220}
   nextWaypoint: {fileID: 1535209621}
-  radius: 2
+  radius: 1
 --- !u!4 &1066529882
 Transform:
   m_ObjectHideFlags: 0
@@ -28082,6 +28292,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1069254656}
+  - component: {fileID: 1069254655}
   m_Layer: 0
   m_Name: WaypointRoot (5)
   m_TagString: Untagged
@@ -28089,6 +28300,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1069254655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1069254654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1069254656
 Transform:
   m_ObjectHideFlags: 0
@@ -28448,6 +28672,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1085257439}
+  - component: {fileID: 1085257438}
   m_Layer: 0
   m_Name: WaypointRoot (18)
   m_TagString: Untagged
@@ -28455,6 +28680,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1085257438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1085257437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1085257439
 Transform:
   m_ObjectHideFlags: 0
@@ -28507,7 +28745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 713368458}
   nextWaypoint: {fileID: 1870803490}
-  radius: 2
+  radius: 1
 --- !u!4 &1085317089
 Transform:
   m_ObjectHideFlags: 0
@@ -28550,7 +28788,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 502079435}
   nextWaypoint: {fileID: 523588514}
-  radius: 2
+  radius: 1
 --- !u!4 &1090970851
 Transform:
   m_ObjectHideFlags: 0
@@ -28593,7 +28831,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1395445472}
   nextWaypoint: {fileID: 956361283}
-  radius: 2
+  radius: 1
 --- !u!4 &1092408060
 Transform:
   m_ObjectHideFlags: 0
@@ -28718,7 +28956,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 572659433}
   nextWaypoint: {fileID: 607265118}
-  radius: 2
+  radius: 1
 --- !u!4 &1095101771
 Transform:
   m_ObjectHideFlags: 0
@@ -28761,7 +28999,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1472802994}
   nextWaypoint: {fileID: 1560257228}
-  radius: 2
+  radius: 1
 --- !u!4 &1095452641
 Transform:
   m_ObjectHideFlags: 0
@@ -28804,7 +29042,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 950881561}
   nextWaypoint: {fileID: 2077611727}
-  radius: 2
+  radius: 1
 --- !u!4 &1095489726
 Transform:
   m_ObjectHideFlags: 0
@@ -29175,10 +29413,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pedPrefab:
   - {fileID: 1584086070080588, guid: 10e2170df4df57c4a9ba622d740839e2, type: 2}
+  - {fileID: 1331285281830486, guid: c7acf279b141b9645a10f6994991a577, type: 2}
+  - {fileID: 1248042766629254, guid: 80083d721e6d13047b50bd757bc9aecf, type: 2}
+  - {fileID: 1796073776845166, guid: c70d3b61ce7e3cf4f8c4be802fbb1ce1, type: 2}
+  - {fileID: 1324874133060450, guid: 0b3cfc8453b11064dac16621e4f6ba88, type: 2}
+  - {fileID: 1316021872124644, guid: 88b6ce24d09c1e34a8394c5ff22b127d, type: 2}
+  - {fileID: 1149306748645362, guid: 2cf91ac1281193349915853e9a696a7c, type: 2}
+  - {fileID: 1385336532410266, guid: 21248381aae78e7409046ec207fe1eac, type: 2}
   inactivePeds: []
   spawnPoints: []
-  noToSpawn: 50
-  spawnInterval: 2
+  noToSpawn: 25
+  spawnInterval: 3
 --- !u!4 &1106358156
 Transform:
   m_ObjectHideFlags: 0
@@ -29331,7 +29576,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1449900283}
   nextWaypoint: {fileID: 1114735158}
-  radius: 2
+  radius: 1
 --- !u!4 &1113852097
 Transform:
   m_ObjectHideFlags: 0
@@ -29374,7 +29619,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1113852096}
   nextWaypoint: {fileID: 986180756}
-  radius: 2
+  radius: 1
 --- !u!4 &1114735159
 Transform:
   m_ObjectHideFlags: 0
@@ -29512,7 +29757,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1663550745}
   nextWaypoint: {fileID: 2083824942}
-  radius: 2
+  radius: 1
 --- !u!1 &1120284873
 GameObject:
   m_ObjectHideFlags: 0
@@ -29588,12 +29833,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1120284873}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 169.08, y: 6.7, z: 46.1}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_Father: {fileID: 870193555}
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1121303583
 GameObject:
@@ -29796,12 +30041,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1130882099}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -25.03, y: 6.7, z: 46.1}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 870193555}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1131887262
 GameObject:
@@ -29832,7 +30077,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2083824942}
   nextWaypoint: {fileID: 468773142}
-  radius: 2
+  radius: 1
 --- !u!4 &1131887264
 Transform:
   m_ObjectHideFlags: 0
@@ -30039,7 +30284,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 232542526}
   nextWaypoint: {fileID: 950881561}
-  radius: 2
+  radius: 1
 --- !u!4 &1139003792
 Transform:
   m_ObjectHideFlags: 0
@@ -30082,7 +30327,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1302119411}
   nextWaypoint: {fileID: 574336764}
-  radius: 2
+  radius: 1
 --- !u!4 &1143627966
 Transform:
   m_ObjectHideFlags: 0
@@ -30125,7 +30370,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 986180756}
   nextWaypoint: {fileID: 1046108258}
-  radius: 2
+  radius: 1
 --- !u!4 &1144610988
 Transform:
   m_ObjectHideFlags: 0
@@ -30542,12 +30787,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1161194762}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 169.08, y: 6.7, z: 86.51}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_Father: {fileID: 870193555}
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1163273086
 GameObject:
@@ -30660,7 +30905,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1297906352}
   nextWaypoint: {fileID: 1683723380}
-  radius: 2
+  radius: 1
 --- !u!4 &1167301579
 Transform:
   m_ObjectHideFlags: 0
@@ -30703,7 +30948,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1700067318}
   nextWaypoint: {fileID: 211994695}
-  radius: 2
+  radius: 1
 --- !u!4 &1168203814
 Transform:
   m_ObjectHideFlags: 0
@@ -30992,7 +31237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1035215040}
   nextWaypoint: {fileID: 221722231}
-  radius: 2
+  radius: 1
 --- !u!4 &1173650299
 Transform:
   m_ObjectHideFlags: 0
@@ -31035,7 +31280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1191258126}
   nextWaypoint: {fileID: 205219940}
-  radius: 2
+  radius: 1
 --- !u!4 &1174099991
 Transform:
   m_ObjectHideFlags: 0
@@ -31406,7 +31651,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 515609472}
   nextWaypoint: {fileID: 1174099990}
-  radius: 2
+  radius: 1
 --- !u!4 &1191258127
 Transform:
   m_ObjectHideFlags: 0
@@ -31428,6 +31673,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1207472741}
+  - component: {fileID: 1207472740}
   m_Layer: 0
   m_Name: WaypointRoot (8)
   m_TagString: Untagged
@@ -31435,6 +31681,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1207472740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1207472739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1207472741
 Transform:
   m_ObjectHideFlags: 0
@@ -32031,12 +32290,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1214502606}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 91.79, y: 6.7, z: 46.1}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 870193555}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1215416271
 GameObject:
@@ -32193,7 +32452,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1524502161}
   nextWaypoint: {fileID: 186667200}
-  radius: 2
+  radius: 1
 --- !u!4 &1220941690
 Transform:
   m_ObjectHideFlags: 0
@@ -32236,7 +32495,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 765379584}
   nextWaypoint: {fileID: 515609472}
-  radius: 2
+  radius: 1
 --- !u!4 &1226082493
 Transform:
   m_ObjectHideFlags: 0
@@ -32279,7 +32538,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1675419936}
   nextWaypoint: {fileID: 827941039}
-  radius: 2
+  radius: 1
 --- !u!4 &1230818348
 Transform:
   m_ObjectHideFlags: 0
@@ -32568,7 +32827,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1949030797}
   nextWaypoint: {fileID: 1395445472}
-  radius: 2
+  radius: 1
 --- !u!4 &1246197886
 Transform:
   m_ObjectHideFlags: 0
@@ -32693,7 +32952,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1405686893}
   nextWaypoint: {fileID: 333181090}
-  radius: 2
+  radius: 1
 --- !u!4 &1252862727
 Transform:
   m_ObjectHideFlags: 0
@@ -32736,7 +32995,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1963000753}
   nextWaypoint: {fileID: 1739686985}
-  radius: 2
+  radius: 1
 --- !u!4 &1260564824
 Transform:
   m_ObjectHideFlags: 0
@@ -32779,7 +33038,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 140013674}
   nextWaypoint: {fileID: 769476814}
-  radius: 2
+  radius: 1
 --- !u!4 &1260711035
 Transform:
   m_ObjectHideFlags: 0
@@ -32822,7 +33081,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 258879836}
   nextWaypoint: {fileID: 1371917815}
-  radius: 2
+  radius: 1
 --- !u!4 &1262473074
 Transform:
   m_ObjectHideFlags: 0
@@ -32965,7 +33224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1482020137}
   nextWaypoint: {fileID: 1734823132}
-  radius: 2
+  radius: 1
 --- !u!4 &1274285899
 Transform:
   m_ObjectHideFlags: 0
@@ -33418,7 +33677,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2124581180}
   nextWaypoint: {fileID: 191268339}
-  radius: 2
+  radius: 1
 --- !u!4 &1286356799
 Transform:
   m_ObjectHideFlags: 0
@@ -33589,12 +33848,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1290506559}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 51.86, y: 6.7, z: 86.51}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_Father: {fileID: 870193555}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1291312833
 GameObject:
@@ -33932,6 +34191,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1297218582}
+  - component: {fileID: 1297218581}
   m_Layer: 0
   m_Name: WaypointRoot (10)
   m_TagString: Untagged
@@ -33939,6 +34199,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1297218581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1297218580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1297218582
 Transform:
   m_ObjectHideFlags: 0
@@ -34086,7 +34359,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1585269020}
   nextWaypoint: {fileID: 1167301578}
-  radius: 2
+  radius: 1
 --- !u!1 &1298938518
 GameObject:
   m_ObjectHideFlags: 0
@@ -34242,7 +34515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 346448555}
   nextWaypoint: {fileID: 474276788}
-  radius: 2
+  radius: 1
 --- !u!4 &1299815342
 Transform:
   m_ObjectHideFlags: 0
@@ -34298,7 +34571,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1734823132}
   nextWaypoint: {fileID: 1143627965}
-  radius: 2
+  radius: 1
 --- !u!1 &1303293080
 GameObject:
   m_ObjectHideFlags: 0
@@ -34587,7 +34860,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 754681425}
   nextWaypoint: {fileID: 5273702}
-  radius: 2
+  radius: 1
 --- !u!1 &1315825861
 GameObject:
   m_ObjectHideFlags: 0
@@ -34699,7 +34972,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 987453545}
   nextWaypoint: {fileID: 895800475}
-  radius: 2
+  radius: 1
 --- !u!4 &1316182899
 Transform:
   m_ObjectHideFlags: 0
@@ -34870,12 +35143,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1328682790}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 129.15, y: 6.7, z: 9.34}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_Father: {fileID: 870193555}
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1328909691
 GameObject:
@@ -35562,7 +35835,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1064811425}
   nextWaypoint: {fileID: 39484805}
-  radius: 2
+  radius: 1
 --- !u!4 &1347243311
 Transform:
   m_ObjectHideFlags: 0
@@ -35605,7 +35878,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1625832272}
   nextWaypoint: {fileID: 1806353429}
-  radius: 2
+  radius: 1
 --- !u!4 &1350019629
 Transform:
   m_ObjectHideFlags: 0
@@ -36020,7 +36293,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1262473073}
   nextWaypoint: {fileID: 1700067318}
-  radius: 2
+  radius: 1
 --- !u!4 &1371917816
 Transform:
   m_ObjectHideFlags: 0
@@ -36517,7 +36790,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1718102137}
   nextWaypoint: {fileID: 1949030797}
-  radius: 2
+  radius: 1
 --- !u!4 &1392991987
 Transform:
   m_ObjectHideFlags: 0
@@ -36560,7 +36833,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 858433187}
   nextWaypoint: {fileID: 1060706442}
-  radius: 2
+  radius: 1
 --- !u!4 &1393716277
 Transform:
   m_ObjectHideFlags: 0
@@ -36603,7 +36876,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1246197885}
   nextWaypoint: {fileID: 1092408059}
-  radius: 2
+  radius: 1
 --- !u!4 &1395445473
 Transform:
   m_ObjectHideFlags: 0
@@ -36646,7 +36919,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1870803490}
   nextWaypoint: {fileID: 2067932092}
-  radius: 2
+  radius: 1
 --- !u!4 &1395889399
 Transform:
   m_ObjectHideFlags: 0
@@ -36689,7 +36962,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 629138242}
   nextWaypoint: {fileID: 420203849}
-  radius: 2
+  radius: 1
 --- !u!4 &1397796065
 Transform:
   m_ObjectHideFlags: 0
@@ -36778,12 +37051,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1400678056}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 205.96, y: 6.7, z: -30.61}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_Father: {fileID: 870193555}
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1405686892
 GameObject:
@@ -36814,7 +37087,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2020563641}
   nextWaypoint: {fileID: 1252862726}
-  radius: 2
+  radius: 1
 --- !u!4 &1405686894
 Transform:
   m_ObjectHideFlags: 0
@@ -37242,7 +37515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 328503394}
   nextWaypoint: {fileID: 1032092586}
-  radius: 2
+  radius: 1
 --- !u!1 &1418535010
 GameObject:
   m_ObjectHideFlags: 0
@@ -37272,7 +37545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 843363898}
   nextWaypoint: {fileID: 1663550745}
-  radius: 2
+  radius: 1
 --- !u!4 &1418535012
 Transform:
   m_ObjectHideFlags: 0
@@ -37397,7 +37670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 267980422}
   nextWaypoint: {fileID: 152884459}
-  radius: 2
+  radius: 1
 --- !u!4 &1421885576
 Transform:
   m_ObjectHideFlags: 0
@@ -37440,7 +37713,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1758908498}
   nextWaypoint: {fileID: 876452787}
-  radius: 2
+  radius: 1
 --- !u!4 &1422255412
 Transform:
   m_ObjectHideFlags: 0
@@ -37729,7 +38002,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2113183312}
   nextWaypoint: {fileID: 1960185253}
-  radius: 2
+  radius: 1
 --- !u!4 &1431340946
 Transform:
   m_ObjectHideFlags: 0
@@ -37898,7 +38171,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 333181090}
   nextWaypoint: {fileID: 711353192}
-  radius: 2
+  radius: 1
 --- !u!4 &1438587730
 Transform:
   m_ObjectHideFlags: 0
@@ -37941,7 +38214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 848261322}
   nextWaypoint: {fileID: 765379584}
-  radius: 2
+  radius: 1
 --- !u!4 &1446005374
 Transform:
   m_ObjectHideFlags: 0
@@ -37984,7 +38257,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 462051898}
   nextWaypoint: {fileID: 1113852096}
-  radius: 2
+  radius: 1
 --- !u!4 &1449900284
 Transform:
   m_ObjectHideFlags: 0
@@ -38437,7 +38710,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 514289799}
   nextWaypoint: {fileID: 426500821}
-  radius: 2
+  radius: 1
 --- !u!4 &1465389368
 Transform:
   m_ObjectHideFlags: 0
@@ -38562,7 +38835,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 205219940}
   nextWaypoint: {fileID: 1866311864}
-  radius: 2
+  radius: 1
 --- !u!4 &1466024004
 Transform:
   m_ObjectHideFlags: 0
@@ -38605,7 +38878,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1683723380}
   nextWaypoint: {fileID: 1095452640}
-  radius: 2
+  radius: 1
 --- !u!4 &1472802995
 Transform:
   m_ObjectHideFlags: 0
@@ -38648,7 +38921,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 432378761}
   nextWaypoint: {fileID: 1915454123}
-  radius: 2
+  radius: 1
 --- !u!4 &1477028298
 Transform:
   m_ObjectHideFlags: 0
@@ -38737,12 +39010,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1477564058}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 91.79, y: 6.7, z: 86.51}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_Father: {fileID: 870193555}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1479721569
 GameObject:
@@ -38937,7 +39210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 535994106}
   nextWaypoint: {fileID: 1274285898}
-  radius: 2
+  radius: 1
 --- !u!4 &1482020138
 Transform:
   m_ObjectHideFlags: 0
@@ -38980,7 +39253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 914408580}
   nextWaypoint: {fileID: 2040470394}
-  radius: 2
+  radius: 1
 --- !u!4 &1485602129
 Transform:
   m_ObjectHideFlags: 0
@@ -39023,7 +39296,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 474276788}
   nextWaypoint: {fileID: 2113183312}
-  radius: 2
+  radius: 1
 --- !u!4 &1488678447
 Transform:
   m_ObjectHideFlags: 0
@@ -39148,7 +39421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2028858074}
   nextWaypoint: {fileID: 207678709}
-  radius: 2
+  radius: 1
 --- !u!4 &1493230780
 Transform:
   m_ObjectHideFlags: 0
@@ -39191,7 +39464,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1693890526}
   nextWaypoint: {fileID: 267553144}
-  radius: 2
+  radius: 1
 --- !u!4 &1494411780
 Transform:
   m_ObjectHideFlags: 0
@@ -39421,6 +39694,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1502506963}
+  - component: {fileID: 1502506962}
   m_Layer: 0
   m_Name: WaypointRoot (26)
   m_TagString: Untagged
@@ -39428,6 +39702,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1502506962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1502506961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1502506963
 Transform:
   m_ObjectHideFlags: 0
@@ -39493,7 +39780,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1640012361}
   nextWaypoint: {fileID: 1783418042}
-  radius: 2
+  radius: 1
 --- !u!1 &1523797605
 GameObject:
   m_ObjectHideFlags: 0
@@ -39605,7 +39892,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 947223224}
   nextWaypoint: {fileID: 1220941689}
-  radius: 2
+  radius: 1
 --- !u!4 &1524502162
 Transform:
   m_ObjectHideFlags: 0
@@ -39648,7 +39935,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 21246512}
   nextWaypoint: {fileID: 97597044}
-  radius: 2
+  radius: 1
 --- !u!4 &1527925527
 Transform:
   m_ObjectHideFlags: 0
@@ -39773,7 +40060,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1066529881}
   nextWaypoint: {fileID: 1772535327}
-  radius: 2
+  radius: 1
 --- !u!4 &1535209622
 Transform:
   m_ObjectHideFlags: 0
@@ -39816,7 +40103,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 109795104}
   nextWaypoint: {fileID: 1625540731}
-  radius: 2
+  radius: 1
 --- !u!4 &1537648799
 Transform:
   m_ObjectHideFlags: 0
@@ -39859,7 +40146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 30185290}
   nextWaypoint: {fileID: 1963780147}
-  radius: 2
+  radius: 1
 --- !u!4 &1545504473
 Transform:
   m_ObjectHideFlags: 0
@@ -39881,6 +40168,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1545828477}
+  - component: {fileID: 1545828476}
   m_Layer: 0
   m_Name: WaypointRoot (16)
   m_TagString: Untagged
@@ -39888,6 +40176,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1545828476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1545828475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1545828477
 Transform:
   m_ObjectHideFlags: 0
@@ -40022,7 +40323,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 887251516}
   nextWaypoint: {fileID: 305525883}
-  radius: 2
+  radius: 1
 --- !u!4 &1553710117
 Transform:
   m_ObjectHideFlags: 0
@@ -40570,7 +40871,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1886359314}
   nextWaypoint: {fileID: 1675419936}
-  radius: 2
+  radius: 1
 --- !u!1 &1558636908
 GameObject:
   m_ObjectHideFlags: 0
@@ -40682,7 +40983,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1095452640}
   nextWaypoint: {fileID: 1918385957}
-  radius: 2
+  radius: 1
 --- !u!4 &1560257229
 Transform:
   m_ObjectHideFlags: 0
@@ -40771,12 +41072,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1562801813}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 14.9, y: 6.7, z: -30.61}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 870193555}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1564376506
 GameObject:
@@ -40971,7 +41272,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 191268339}
   nextWaypoint: {fileID: 840962945}
-  radius: 2
+  radius: 1
 --- !u!4 &1567898284
 Transform:
   m_ObjectHideFlags: 0
@@ -41140,7 +41441,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1677995264}
   nextWaypoint: {fileID: 2105707401}
-  radius: 2
+  radius: 1
 --- !u!4 &1571008567
 Transform:
   m_ObjectHideFlags: 0
@@ -41162,6 +41463,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1575151759}
+  - component: {fileID: 1575151758}
   m_Layer: 0
   m_Name: WaypointRoot (4)
   m_TagString: Untagged
@@ -41169,6 +41471,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1575151758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1575151757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1575151759
 Transform:
   m_ObjectHideFlags: 0
@@ -41303,7 +41618,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 824302519}
   nextWaypoint: {fileID: 843363898}
-  radius: 2
+  radius: 1
 --- !u!4 &1579212796
 Transform:
   m_ObjectHideFlags: 0
@@ -41346,7 +41661,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1918385957}
   nextWaypoint: {fileID: 538425309}
-  radius: 2
+  radius: 1
 --- !u!4 &1581849534
 Transform:
   m_ObjectHideFlags: 0
@@ -41471,7 +41786,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 538425309}
   nextWaypoint: {fileID: 1297906352}
-  radius: 2
+  radius: 1
 --- !u!4 &1585269021
 Transform:
   m_ObjectHideFlags: 0
@@ -41514,7 +41829,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1955171352}
   nextWaypoint: {fileID: 1808694905}
-  radius: 2
+  radius: 1
 --- !u!4 &1590919421
 Transform:
   m_ObjectHideFlags: 0
@@ -41557,7 +41872,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 179610932}
   nextWaypoint: {fileID: 289777925}
-  radius: 2
+  radius: 1
 --- !u!4 &1597608320
 Transform:
   m_ObjectHideFlags: 0
@@ -41928,7 +42243,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 699787363}
   nextWaypoint: {fileID: 886724030}
-  radius: 2
+  radius: 1
 --- !u!4 &1606388266
 Transform:
   m_ObjectHideFlags: 0
@@ -42261,7 +42576,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 667204337}
   nextWaypoint: {fileID: 1713671906}
-  radius: 2
+  radius: 1
 --- !u!4 &1621666962
 Transform:
   m_ObjectHideFlags: 0
@@ -42386,7 +42701,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1537648798}
   nextWaypoint: {fileID: 1625832272}
-  radius: 2
+  radius: 1
 --- !u!4 &1625540732
 Transform:
   m_ObjectHideFlags: 0
@@ -42442,7 +42757,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1625540731}
   nextWaypoint: {fileID: 1350019628}
-  radius: 2
+  radius: 1
 --- !u!1 &1628200447
 GameObject:
   m_ObjectHideFlags: 0
@@ -42615,6 +42930,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1637310127}
+  - component: {fileID: 1637310126}
   m_Layer: 0
   m_Name: WaypointRoot (15)
   m_TagString: Untagged
@@ -42622,6 +42938,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1637310126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1637310125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1637310127
 Transform:
   m_ObjectHideFlags: 0
@@ -42674,7 +43003,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 937493317}
   nextWaypoint: {fileID: 1516046822}
-  radius: 2
+  radius: 1
 --- !u!4 &1640012362
 Transform:
   m_ObjectHideFlags: 0
@@ -42881,7 +43210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 551508269}
   nextWaypoint: {fileID: 2053920078}
-  radius: 2
+  radius: 1
 --- !u!4 &1649002952
 Transform:
   m_ObjectHideFlags: 0
@@ -43252,7 +43581,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1418535011}
   nextWaypoint: {fileID: 1118153067}
-  radius: 2
+  radius: 1
 --- !u!4 &1663550746
 Transform:
   m_ObjectHideFlags: 0
@@ -43295,7 +43624,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 25434379}
   nextWaypoint: {fileID: 937493317}
-  radius: 2
+  radius: 1
 --- !u!4 &1666636912
 Transform:
   m_ObjectHideFlags: 0
@@ -43420,7 +43749,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1557777004}
   nextWaypoint: {fileID: 1230818347}
-  radius: 2
+  radius: 1
 --- !u!4 &1675419937
 Transform:
   m_ObjectHideFlags: 0
@@ -43545,7 +43874,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 89802398}
   nextWaypoint: {fileID: 1571008566}
-  radius: 2
+  radius: 1
 --- !u!4 &1677995265
 Transform:
   m_ObjectHideFlags: 0
@@ -43716,12 +44045,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1682322001}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 14.9, y: 6.7, z: 86.51}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 870193555}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1683723379
 GameObject:
@@ -43752,7 +44081,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1167301578}
   nextWaypoint: {fileID: 1472802994}
-  radius: 2
+  radius: 1
 --- !u!4 &1683723381
 Transform:
   m_ObjectHideFlags: 0
@@ -43923,12 +44252,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1689712747}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 14.9, y: 6.7, z: 9.34}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_Father: {fileID: 870193555}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1689864446
 GameObject:
@@ -44085,7 +44414,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 678878752}
   nextWaypoint: {fileID: 1494411779}
-  radius: 2
+  radius: 1
 --- !u!4 &1693890527
 Transform:
   m_ObjectHideFlags: 0
@@ -44210,7 +44539,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1371917815}
   nextWaypoint: {fileID: 1168203813}
-  radius: 2
+  radius: 1
 --- !u!4 &1700067319
 Transform:
   m_ObjectHideFlags: 0
@@ -44335,7 +44664,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 456371105}
   nextWaypoint: {fileID: 713368458}
-  radius: 2
+  radius: 1
 --- !u!4 &1700699666
 Transform:
   m_ObjectHideFlags: 0
@@ -44378,7 +44707,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 305525883}
   nextWaypoint: {fileID: 486996802}
-  radius: 2
+  radius: 1
 --- !u!4 &1708590308
 Transform:
   m_ObjectHideFlags: 0
@@ -44585,7 +44914,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1621666961}
   nextWaypoint: {fileID: 273413477}
-  radius: 2
+  radius: 1
 --- !u!4 &1713671907
 Transform:
   m_ObjectHideFlags: 0
@@ -44710,7 +45039,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 261338674}
   nextWaypoint: {fileID: 1392991986}
-  radius: 2
+  radius: 1
 --- !u!4 &1718102138
 Transform:
   m_ObjectHideFlags: 0
@@ -44814,6 +45143,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1725114130}
+  - component: {fileID: 1725114129}
   m_Layer: 0
   m_Name: WaypointRoot (20)
   m_TagString: Untagged
@@ -44821,6 +45151,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1725114129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1725114128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1725114130
 Transform:
   m_ObjectHideFlags: 0
@@ -44873,7 +45216,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1274285898}
   nextWaypoint: {fileID: 1302119411}
-  radius: 2
+  radius: 1
 --- !u!4 &1734823133
 Transform:
   m_ObjectHideFlags: 0
@@ -44998,7 +45341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 814821880}
   nextWaypoint: {fileID: 30185290}
-  radius: 2
+  radius: 1
 --- !u!4 &1739126074
 Transform:
   m_ObjectHideFlags: 0
@@ -45041,7 +45384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1260564823}
   nextWaypoint: {fileID: 1024335172}
-  radius: 2
+  radius: 1
 --- !u!4 &1739686986
 Transform:
   m_ObjectHideFlags: 0
@@ -45494,7 +45837,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1834758793}
   nextWaypoint: {fileID: 1422255411}
-  radius: 2
+  radius: 1
 --- !u!4 &1758908499
 Transform:
   m_ObjectHideFlags: 0
@@ -45537,7 +45880,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2054171817}
   nextWaypoint: {fileID: 284263646}
-  radius: 2
+  radius: 1
 --- !u!4 &1760271291
 Transform:
   m_ObjectHideFlags: 0
@@ -45744,7 +46087,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 577118385}
   nextWaypoint: {fileID: 432397384}
-  radius: 2
+  radius: 1
 --- !u!4 &1769734187
 Transform:
   m_ObjectHideFlags: 0
@@ -45869,7 +46212,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1535209621}
   nextWaypoint: {fileID: 132592655}
-  radius: 2
+  radius: 1
 --- !u!4 &1772535328
 Transform:
   m_ObjectHideFlags: 0
@@ -46076,7 +46419,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1516046822}
   nextWaypoint: {fileID: 2028858074}
-  radius: 2
+  radius: 1
 --- !u!4 &1783418043
 Transform:
   m_ObjectHideFlags: 0
@@ -46098,6 +46441,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1783638055}
+  - component: {fileID: 1783638054}
   m_Layer: 0
   m_Name: WaypointRoot (27)
   m_TagString: Untagged
@@ -46105,6 +46449,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1783638054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1783638053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1783638055
 Transform:
   m_ObjectHideFlags: 0
@@ -46403,7 +46760,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1806353429}
   nextWaypoint: {fileID: 914408580}
-  radius: 2
+  radius: 1
 --- !u!4 &1794072293
 Transform:
   m_ObjectHideFlags: 0
@@ -46446,7 +46803,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 273413477}
   nextWaypoint: {fileID: 2012101762}
-  radius: 2
+  radius: 1
 --- !u!4 &1797624262
 Transform:
   m_ObjectHideFlags: 0
@@ -46489,7 +46846,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1350019628}
   nextWaypoint: {fileID: 1794072292}
-  radius: 2
+  radius: 1
 --- !u!4 &1806353430
 Transform:
   m_ObjectHideFlags: 0
@@ -46614,7 +46971,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1590919420}
   nextWaypoint: {fileID: 754681425}
-  radius: 2
+  radius: 1
 --- !u!4 &1808694906
 Transform:
   m_ObjectHideFlags: 0
@@ -46739,7 +47096,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 426500821}
   nextWaypoint: {fileID: 442138007}
-  radius: 2
+  radius: 1
 --- !u!4 &1812833234
 Transform:
   m_ObjectHideFlags: 0
@@ -47192,7 +47549,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 895800475}
   nextWaypoint: {fileID: 1758908498}
-  radius: 2
+  radius: 1
 --- !u!4 &1834758794
 Transform:
   m_ObjectHideFlags: 0
@@ -47563,7 +47920,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1466024003}
   nextWaypoint: {fileID: 848261322}
-  radius: 2
+  radius: 1
 --- !u!4 &1866311865
 Transform:
   m_ObjectHideFlags: 0
@@ -47606,7 +47963,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1085317088}
   nextWaypoint: {fileID: 1395889398}
-  radius: 2
+  radius: 1
 --- !u!4 &1870803491
 Transform:
   m_ObjectHideFlags: 0
@@ -47649,7 +48006,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2049480373}
   nextWaypoint: {fileID: 629138242}
-  radius: 2
+  radius: 1
 --- !u!4 &1871214320
 Transform:
   m_ObjectHideFlags: 0
@@ -47820,12 +48177,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1874162656}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 169.08, y: 6.7, z: -30.61}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_Father: {fileID: 870193555}
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1882283833
 GameObject:
@@ -47951,7 +48308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 596046763}
   nextWaypoint: {fileID: 844714062}
-  radius: 2
+  radius: 1
 --- !u!1 &1886359313
 GameObject:
   m_ObjectHideFlags: 0
@@ -47981,7 +48338,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 427783899}
   nextWaypoint: {fileID: 1557777004}
-  radius: 2
+  radius: 1
 --- !u!4 &1886359315
 Transform:
   m_ObjectHideFlags: 0
@@ -48249,6 +48606,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1894484677}
+  - component: {fileID: 1894484676}
   m_Layer: 0
   m_Name: WaypointRoot (19)
   m_TagString: Untagged
@@ -48256,6 +48614,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1894484676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1894484675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1894484677
 Transform:
   m_ObjectHideFlags: 0
@@ -48413,6 +48784,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1903373409}
+  - component: {fileID: 1903373408}
   m_Layer: 0
   m_Name: WaypointRoot (21)
   m_TagString: Untagged
@@ -48420,6 +48792,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1903373408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1903373407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1903373409
 Transform:
   m_ObjectHideFlags: 0
@@ -48718,7 +49103,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1477028297}
   nextWaypoint: {fileID: 768685720}
-  radius: 2
+  radius: 1
 --- !u!4 &1915454124
 Transform:
   m_ObjectHideFlags: 0
@@ -48761,7 +49146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 211994695}
   nextWaypoint: {fileID: 21246512}
-  radius: 2
+  radius: 1
 --- !u!4 &1916322748
 Transform:
   m_ObjectHideFlags: 0
@@ -48804,7 +49189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1560257228}
   nextWaypoint: {fileID: 1581849533}
-  radius: 2
+  radius: 1
 --- !u!4 &1918385958
 Transform:
   m_ObjectHideFlags: 0
@@ -49057,12 +49442,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1925317558}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -25.03, y: 6.7, z: 9.34}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 870193555}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1932220392
 GameObject:
@@ -49421,7 +49806,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 224722315}
   nextWaypoint: {fileID: 328503394}
-  radius: 2
+  radius: 1
 --- !u!4 &1942330373
 Transform:
   m_ObjectHideFlags: 0
@@ -49464,7 +49849,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1392991986}
   nextWaypoint: {fileID: 1246197885}
-  radius: 2
+  radius: 1
 --- !u!4 &1949030798
 Transform:
   m_ObjectHideFlags: 0
@@ -49486,6 +49871,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1949505406}
+  - component: {fileID: 1949505405}
   m_Layer: 0
   m_Name: WaypointRoot (3)
   m_TagString: Untagged
@@ -49493,6 +49879,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1949505405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1949505404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1949505406
 Transform:
   m_ObjectHideFlags: 0
@@ -49589,7 +49988,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2053920078}
   nextWaypoint: {fileID: 1590919420}
-  radius: 2
+  radius: 1
 --- !u!4 &1955171353
 Transform:
   m_ObjectHideFlags: 0
@@ -49632,7 +50031,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1431340945}
   nextWaypoint: {fileID: 117726666}
-  radius: 2
+  radius: 1
 --- !u!4 &1960185254
 Transform:
   m_ObjectHideFlags: 0
@@ -49721,12 +50120,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1960306405}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 205.96, y: 6.7, z: 86.51}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_Father: {fileID: 870193555}
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1962369051
 GameObject:
@@ -49839,7 +50238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 942206039}
   nextWaypoint: {fileID: 1260564823}
-  radius: 2
+  radius: 1
 --- !u!4 &1963000754
 Transform:
   m_ObjectHideFlags: 0
@@ -49882,7 +50281,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1545504472}
   nextWaypoint: {fileID: 89802398}
-  radius: 2
+  radius: 1
 --- !u!4 &1963780148
 Transform:
   m_ObjectHideFlags: 0
@@ -50253,7 +50652,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 442138007}
   nextWaypoint: {fileID: 502079435}
-  radius: 2
+  radius: 1
 --- !u!4 &1981222228
 Transform:
   m_ObjectHideFlags: 0
@@ -50296,7 +50695,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 876452787}
   nextWaypoint: {fileID: 2062080252}
-  radius: 2
+  radius: 1
 --- !u!4 &1984849973
 Transform:
   m_ObjectHideFlags: 0
@@ -50564,6 +50963,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1991752924}
+  - component: {fileID: 1991752923}
   m_Layer: 0
   m_Name: WaypointRoot (25)
   m_TagString: Untagged
@@ -50571,6 +50971,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1991752923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1991752922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1991752924
 Transform:
   m_ObjectHideFlags: 0
@@ -50869,7 +51282,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1046108258}
   nextWaypoint: {fileID: 2087670829}
-  radius: 2
+  radius: 1
 --- !u!4 &2009632565
 Transform:
   m_ObjectHideFlags: 0
@@ -51076,7 +51489,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1797624261}
   nextWaypoint: {fileID: 43946237}
-  radius: 2
+  radius: 1
 --- !u!4 &2012101763
 Transform:
   m_ObjectHideFlags: 0
@@ -51180,6 +51593,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2015893909}
+  - component: {fileID: 2015893908}
   m_Layer: 0
   m_Name: WaypointRoot (7)
   m_TagString: Untagged
@@ -51187,6 +51601,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2015893908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2015893907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &2015893909
 Transform:
   m_ObjectHideFlags: 0
@@ -51334,7 +51761,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2114056415}
   nextWaypoint: {fileID: 1405686893}
-  radius: 2
+  radius: 1
 --- !u!1 &2028321912
 GameObject:
   m_ObjectHideFlags: 0
@@ -51364,7 +51791,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1060706442}
   nextWaypoint: {fileID: 140013674}
-  radius: 2
+  radius: 1
 --- !u!4 &2028321914
 Transform:
   m_ObjectHideFlags: 0
@@ -51407,7 +51834,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1783418042}
   nextWaypoint: {fileID: 1493230779}
-  radius: 2
+  radius: 1
 --- !u!4 &2028858075
 Transform:
   m_ObjectHideFlags: 0
@@ -51578,12 +52005,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2039636484}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 51.86, y: 6.7, z: 9.34}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_Father: {fileID: 870193555}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2040470393
 GameObject:
@@ -51614,7 +52041,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1485602128}
   nextWaypoint: {fileID: 109795104}
-  radius: 2
+  radius: 1
 --- !u!4 &2040470395
 Transform:
   m_ObjectHideFlags: 0
@@ -51867,12 +52294,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2044196482}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 91.79, y: 6.7, z: -30.61}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_Father: {fileID: 870193555}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2045976769
 GameObject:
@@ -52067,7 +52494,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1024335172}
   nextWaypoint: {fileID: 1871214319}
-  radius: 2
+  radius: 1
 --- !u!4 &2049480374
 Transform:
   m_ObjectHideFlags: 0
@@ -52356,7 +52783,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1649002951}
   nextWaypoint: {fileID: 1955171352}
-  radius: 2
+  radius: 1
 --- !u!4 &2053920079
 Transform:
   m_ObjectHideFlags: 0
@@ -52399,7 +52826,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 43946237}
   nextWaypoint: {fileID: 1760271290}
-  radius: 2
+  radius: 1
 --- !u!4 &2054171818
 Transform:
   m_ObjectHideFlags: 0
@@ -52524,7 +52951,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1984849972}
   nextWaypoint: {fileID: 276389559}
-  radius: 2
+  radius: 1
 --- !u!4 &2062080253
 Transform:
   m_ObjectHideFlags: 0
@@ -52649,7 +53076,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1395889398}
   nextWaypoint: {fileID: 179610932}
-  radius: 2
+  radius: 1
 --- !u!4 &2067932093
 Transform:
   m_ObjectHideFlags: 0
@@ -52856,7 +53283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 829526376}
   nextWaypoint: {fileID: 1035215040}
-  radius: 2
+  radius: 1
 --- !u!4 &2073933851
 Transform:
   m_ObjectHideFlags: 0
@@ -52981,7 +53408,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1095489725}
   nextWaypoint: {fileID: 716318786}
-  radius: 2
+  radius: 1
 --- !u!4 &2077611728
 Transform:
   m_ObjectHideFlags: 0
@@ -53106,7 +53533,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1118153067}
   nextWaypoint: {fileID: 1131887263}
-  radius: 2
+  radius: 1
 --- !u!4 &2083824943
 Transform:
   m_ObjectHideFlags: 0
@@ -53313,7 +53740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2009632564}
   nextWaypoint: {fileID: 506238631}
-  radius: 2
+  radius: 1
 --- !u!4 &2087670830
 Transform:
   m_ObjectHideFlags: 0
@@ -53520,7 +53947,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 750904813}
   nextWaypoint: {fileID: 861160280}
-  radius: 2
+  radius: 1
 --- !u!4 &2102984135
 Transform:
   m_ObjectHideFlags: 0
@@ -53563,7 +53990,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1571008566}
   nextWaypoint: {fileID: 412164365}
-  radius: 2
+  radius: 1
 --- !u!4 &2105707402
 Transform:
   m_ObjectHideFlags: 0
@@ -53734,12 +54161,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2113155927}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 129.15, y: 6.7, z: 86.51}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_Father: {fileID: 870193555}
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2113183311
 GameObject:
@@ -53770,7 +54197,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1488678446}
   nextWaypoint: {fileID: 1431340945}
-  radius: 2
+  radius: 1
 --- !u!4 &2113183313
 Transform:
   m_ObjectHideFlags: 0
@@ -53895,7 +54322,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 561765281}
   nextWaypoint: {fileID: 2020563641}
-  radius: 2
+  radius: 1
 --- !u!4 &2114056416
 Transform:
   m_ObjectHideFlags: 0
@@ -53982,7 +54409,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 505706516}
   nextWaypoint: {fileID: 1286356798}
-  radius: 2
+  radius: 1
 --- !u!4 &2124581181
 Transform:
   m_ObjectHideFlags: 0
@@ -54004,6 +54431,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2125818759}
+  - component: {fileID: 2125818760}
   m_Layer: 0
   m_Name: WaypointRoot
   m_TagString: Untagged
@@ -54034,6 +54462,19 @@ Transform:
   m_Father: {fileID: 1106358156}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2125818760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2125818758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!1 &2130911272
 GameObject:
   m_ObjectHideFlags: 0
@@ -54042,6 +54483,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2130911274}
+  - component: {fileID: 2130911273}
   m_Layer: 0
   m_Name: WaypointRoot (2)
   m_TagString: Untagged
@@ -54049,6 +54491,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2130911273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2130911272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedLimit: 5
+  pedCount: 0
 --- !u!4 &2130911274
 Transform:
   m_ObjectHideFlags: 0

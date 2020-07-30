@@ -13,6 +13,7 @@ public class CharacterController : MonoBehaviour
     AnimatorOverrideController overrideController;
 
     public Waypoint wayPoint;
+    public BlockScript block;
 
     [SerializeField] float walkSpeed;
     [SerializeField] float runSpeed;
@@ -87,7 +88,7 @@ public class CharacterController : MonoBehaviour
 
         float destinationDistance = dir.magnitude;
 
-        if(destinationDistance <= stoppingDistance)
+        if (destinationDistance <= stoppingDistance)
         {
             if (direction == 0)
             {
@@ -104,9 +105,9 @@ public class CharacterController : MonoBehaviour
             transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
             transform.Translate(Vector3.forward * speed * Time.deltaTime);
         }
-        
-        
-        
+
+
+
     }
 
     //int state;

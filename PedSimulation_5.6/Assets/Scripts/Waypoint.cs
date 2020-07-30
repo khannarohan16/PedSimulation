@@ -7,15 +7,19 @@ public class Waypoint : MonoBehaviour {
 	public Waypoint previousWaypoint;
 	public Waypoint nextWaypoint;
 
+	[HideInInspector]
+	public BlockScript block;
+
 	//Radius of waypoint area
-	[Range(0,3)]
-	public float radius = 2f;
+	[Range(0,2)]
+	public float radius = 1f;
 
 	void Awake()
 	{
 		SphereCollider col = gameObject.AddComponent<SphereCollider>();
 		col.radius = 1f;
 		col.isTrigger = true;
+		block = GetComponentInParent<BlockScript>();
 		//gameObject.tag = "Waypoint";
 	}
 	

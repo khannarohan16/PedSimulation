@@ -30,7 +30,7 @@ public class PedSpawner : MonoBehaviour {
 			Waypoint randomPoint = spawnPoints[Random.Range(0, spawnPoints.Count)];
 			obj.transform.position = randomPoint.GetPosition();
 			obj.GetComponent<CharacterController>().wayPoint = randomPoint;
-
+			obj.GetComponent<CharacterController>().block = randomPoint.block;
 			count++;
 			yield return new WaitForEndOfFrame();
 		}
@@ -40,6 +40,15 @@ public class PedSpawner : MonoBehaviour {
 	IEnumerator PeriodicSpawn()
 	{
 		yield return new WaitForSeconds(spawnInterval);
+
+		foreach (var point in spawnPoints)
+		{
+			if (point.block.pedCount > point.block.pedLimit)
+			{
+				spawnPoints.Remove(point);
+			}
+		}
+
 		if (inactivePeds.Count != 0 && spawnPoints.Count != 0)
 		{
 			print("Respawning");
@@ -48,7 +57,9 @@ public class PedSpawner : MonoBehaviour {
 				Waypoint randomPoint = spawnPoints[Random.Range(0, spawnPoints.Count)];
 				item.transform.position = randomPoint.GetPosition();
 				item.SetActive(true);
-				item.GetComponent<CharacterController>().wayPoint = randomPoint;	
+				item.GetComponent<CharacterController>().wayPoint = randomPoint;
+				item.GetComponent<CharacterController>().block = randomPoint.block;
+				randomPoint.block.pedCount++;
 			}
 			inactivePeds.Clear();
 		}
@@ -59,6 +70,19 @@ public class PedSpawner : MonoBehaviour {
 	{
 		GameObject ped = p;
 		inactivePeds.Add(ped);
+		ped.GetComponent<CharacterController>().block.pedCount--;
 		ped.SetActive(false);
 	}
 }
+
+/** The Plan 
+ 
+	-> Make each block to have a limit value for peds and  a counter for peds assigned to that block
+	-> Once every periodic spawning check the spawnpoints list and remove those spawn points whose pedistrian counter exceeds limit
+
+	Counter Management:
+	-> Increament when Spawning
+	-> Decreament when Despawning
+	-> Peds and waypoints should have reference to the block they are in
+
+*/
