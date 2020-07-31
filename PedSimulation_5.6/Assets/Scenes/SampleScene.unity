@@ -223,6 +223,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1313342585}
   nextWaypoint: {fileID: 403607573}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &5273703
 Transform:
   m_ObjectHideFlags: 0
@@ -556,6 +561,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1916322747}
   nextWaypoint: {fileID: 1527925526}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &21246513
 Transform:
   m_ObjectHideFlags: 0
@@ -725,6 +735,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 858010360}
   nextWaypoint: {fileID: 1666636911}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &25434380
 Transform:
   m_ObjectHideFlags: 0
@@ -768,6 +783,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 39484805}
   nextWaypoint: {fileID: 232542526}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &28478557
 Transform:
   m_ObjectHideFlags: 0
@@ -893,6 +913,12 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1739126073}
   nextWaypoint: {fileID: 1545504472}
   radius: 1
+  branches:
+  - {fileID: 954526613}
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &30185291
 Transform:
   m_ObjectHideFlags: 0
@@ -900,7 +926,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 30185289}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 20.76, y: 0, z: 6.36}
+  m_LocalPosition: {x: 19.71, y: 0, z: 8.96}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2130911274}
@@ -936,6 +962,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 607265118}
   nextWaypoint: {fileID: 680991220}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &32043234
 Transform:
   m_ObjectHideFlags: 0
@@ -979,6 +1010,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1347243310}
   nextWaypoint: {fileID: 28478556}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &39484806
 Transform:
   m_ObjectHideFlags: 0
@@ -1022,6 +1058,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 2012101762}
   nextWaypoint: {fileID: 2054171817}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &43946238
 Transform:
   m_ObjectHideFlags: 0
@@ -1065,6 +1106,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 152884459}
   nextWaypoint: {fileID: 505706516}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &50285873
 Transform:
   m_ObjectHideFlags: 0
@@ -1764,6 +1810,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 966806181}
   nextWaypoint: {fileID: 574892129}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &84960683
 Transform:
   m_ObjectHideFlags: 0
@@ -1820,6 +1871,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1963780147}
   nextWaypoint: {fileID: 1677995264}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!1 &90975619
 GameObject:
   m_ObjectHideFlags: 0
@@ -2014,6 +2070,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 434955390}
   nextWaypoint: {fileID: 829526376}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &96570788
 Transform:
   m_ObjectHideFlags: 0
@@ -2057,6 +2118,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1527925526}
   nextWaypoint: {fileID: 258879836}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &97597045
 Transform:
   m_ObjectHideFlags: 0
@@ -2343,8 +2409,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedLimit: 10
-  pedCount: 0
 --- !u!4 &105266228
 Transform:
   m_ObjectHideFlags: 0
@@ -2398,6 +2462,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 2040470394}
   nextWaypoint: {fileID: 1537648798}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &109795105
 Transform:
   m_ObjectHideFlags: 0
@@ -2523,6 +2592,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1960185253}
   nextWaypoint: {fileID: 393194518}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &117726667
 Transform:
   m_ObjectHideFlags: 0
@@ -2645,8 +2719,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedLimit: 10
-  pedCount: 0
 --- !u!4 &120738021
 Transform:
   m_ObjectHideFlags: 0
@@ -3110,6 +3182,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1772535327}
   nextWaypoint: {fileID: 845861848}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &132592656
 Transform:
   m_ObjectHideFlags: 0
@@ -3317,6 +3394,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 2028321913}
   nextWaypoint: {fileID: 1260711034}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &140013675
 Transform:
   m_ObjectHideFlags: 0
@@ -3688,6 +3770,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1421885575}
   nextWaypoint: {fileID: 50285872}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &152884460
 Transform:
   m_ObjectHideFlags: 0
@@ -4223,6 +4310,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 2067932092}
   nextWaypoint: {fileID: 1597608319}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &179610933
 Transform:
   m_ObjectHideFlags: 0
@@ -4486,6 +4578,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1220941689}
   nextWaypoint: {fileID: 427783899}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &186667201
 Transform:
   m_ObjectHideFlags: 0
@@ -4611,6 +4708,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1286356798}
   nextWaypoint: {fileID: 1567898283}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &191268340
 Transform:
   m_ObjectHideFlags: 0
@@ -5064,6 +5166,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1174099990}
   nextWaypoint: {fileID: 1466024003}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &205219941
 Transform:
   m_ObjectHideFlags: 0
@@ -5107,6 +5214,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 432397384}
   nextWaypoint: {fileID: 450173994}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &207146158
 Transform:
   m_ObjectHideFlags: 0
@@ -5150,6 +5262,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1493230779}
   nextWaypoint: {fileID: 858010360}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &207678710
 Transform:
   m_ObjectHideFlags: 0
@@ -5275,6 +5392,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 468773142}
   nextWaypoint: {fileID: 824302519}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &210924482
 Transform:
   m_ObjectHideFlags: 0
@@ -5318,6 +5440,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1168203813}
   nextWaypoint: {fileID: 1916322747}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &211994696
 Transform:
   m_ObjectHideFlags: 0
@@ -5443,6 +5570,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 956361283}
   nextWaypoint: {fileID: 396175442}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &218271242
 Transform:
   m_ObjectHideFlags: 0
@@ -5565,8 +5697,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedLimit: 10
-  pedCount: 0
 --- !u!4 &220598244
 Transform:
   m_ObjectHideFlags: 0
@@ -5633,6 +5763,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1173650298}
   nextWaypoint: {fileID: 1002811249}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!1 &224722314
 GameObject:
   m_ObjectHideFlags: 0
@@ -5663,6 +5798,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 858670190}
   nextWaypoint: {fileID: 1942330372}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &224722316
 Transform:
   m_ObjectHideFlags: 0
@@ -5832,6 +5972,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 28478556}
   nextWaypoint: {fileID: 1139003791}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &232542527
 Transform:
   m_ObjectHideFlags: 0
@@ -6449,6 +6594,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 845187076}
   nextWaypoint: {fileID: 434955390}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &254269995
 Transform:
   m_ObjectHideFlags: 0
@@ -6505,6 +6655,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 97597044}
   nextWaypoint: {fileID: 1262473073}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!1 &259589055
 GameObject:
   m_ObjectHideFlags: 0
@@ -6630,6 +6785,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 396175442}
   nextWaypoint: {fileID: 1718102137}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!1 &262405090
 GameObject:
   m_ObjectHideFlags: 0
@@ -6988,6 +7148,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1494411779}
   nextWaypoint: {fileID: 596046763}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &267553145
 Transform:
   m_ObjectHideFlags: 0
@@ -7031,6 +7196,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 840962945}
   nextWaypoint: {fileID: 1421885575}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &267980423
 Transform:
   m_ObjectHideFlags: 0
@@ -7156,6 +7326,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1713671906}
   nextWaypoint: {fileID: 1797624261}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &273413478
 Transform:
   m_ObjectHideFlags: 0
@@ -7281,6 +7456,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 2062080252}
   nextWaypoint: {fileID: 987453545}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &276389560
 Transform:
   m_ObjectHideFlags: 0
@@ -7488,6 +7668,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 661691704}
   nextWaypoint: {fileID: 577118385}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &283139210
 Transform:
   m_ObjectHideFlags: 0
@@ -7544,6 +7729,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1760271290}
   nextWaypoint: {fileID: 667204337}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!1 &289777923
 GameObject:
   m_ObjectHideFlags: 0
@@ -7587,6 +7777,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1597608319}
   nextWaypoint: {fileID: 456371105}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!1 &292281041
 GameObject:
   m_ObjectHideFlags: 0
@@ -7863,6 +8058,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1553710116}
   nextWaypoint: {fileID: 1708590307}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &305525884
 Transform:
   m_ObjectHideFlags: 0
@@ -8398,6 +8598,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1942330372}
   nextWaypoint: {fileID: 1414092060}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &328503395
 Transform:
   m_ObjectHideFlags: 0
@@ -8769,6 +8974,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1252862726}
   nextWaypoint: {fileID: 1438587729}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &333181091
 Transform:
   m_ObjectHideFlags: 0
@@ -9058,6 +9268,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 385343356}
   nextWaypoint: {fileID: 1299815341}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &346448556
 Transform:
   m_ObjectHideFlags: 0
@@ -9347,6 +9562,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 677260858}
   nextWaypoint: {fileID: 561765281}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &368732935
 Transform:
   m_ObjectHideFlags: 0
@@ -9775,6 +9995,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 393194518}
   nextWaypoint: {fileID: 346448555}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!1 &386562029
 GameObject:
   m_ObjectHideFlags: 0
@@ -9887,6 +10112,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 117726666}
   nextWaypoint: {fileID: 385343356}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &393194519
 Transform:
   m_ObjectHideFlags: 0
@@ -10012,6 +10242,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 218271241}
   nextWaypoint: {fileID: 261338674}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &396175443
 Transform:
   m_ObjectHideFlags: 0
@@ -10301,6 +10536,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 5273702}
   nextWaypoint: {fileID: 551508269}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &403607574
 Transform:
   m_ObjectHideFlags: 0
@@ -10341,8 +10581,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedLimit: 10
-  pedCount: 0
 --- !u!4 &406798841
 Transform:
   m_ObjectHideFlags: 0
@@ -10642,6 +10880,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 762174047}
   nextWaypoint: {fileID: 858433187}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &411211010
 Transform:
   m_ObjectHideFlags: 0
@@ -10767,6 +11010,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 2105707401}
   nextWaypoint: {fileID: 814821880}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &412164366
 Transform:
   m_ObjectHideFlags: 0
@@ -10987,6 +11235,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1397796064}
   nextWaypoint: {fileID: 942206039}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!1 &426500820
 GameObject:
   m_ObjectHideFlags: 0
@@ -11017,6 +11270,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1465389367}
   nextWaypoint: {fileID: 1812833233}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &426500822
 Transform:
   m_ObjectHideFlags: 0
@@ -11104,6 +11362,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 186667200}
   nextWaypoint: {fileID: 1886359314}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &427783900
 Transform:
   m_ObjectHideFlags: 0
@@ -11226,8 +11489,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedLimit: 10
-  pedCount: 0
 --- !u!4 &428512460
 Transform:
   m_ObjectHideFlags: 0
@@ -11445,6 +11706,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1032092586}
   nextWaypoint: {fileID: 1477028297}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &432378762
 Transform:
   m_ObjectHideFlags: 0
@@ -11488,6 +11754,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1769734186}
   nextWaypoint: {fileID: 207146157}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &432397385
 Transform:
   m_ObjectHideFlags: 0
@@ -11695,6 +11966,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 254269994}
   nextWaypoint: {fileID: 96570787}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &434955391
 Transform:
   m_ObjectHideFlags: 0
@@ -11820,6 +12096,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1812833233}
   nextWaypoint: {fileID: 1981222227}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &442138008
 Transform:
   m_ObjectHideFlags: 0
@@ -12027,6 +12308,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 769476814}
   nextWaypoint: {fileID: 762174047}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &449658892
 Transform:
   m_ObjectHideFlags: 0
@@ -12165,6 +12451,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 207146157}
   nextWaypoint: {fileID: 803370307}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!1 &450254302
 GameObject:
   m_ObjectHideFlags: 0
@@ -12403,6 +12694,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 289777925}
   nextWaypoint: {fileID: 1700699665}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &456371106
 Transform:
   m_ObjectHideFlags: 0
@@ -12446,6 +12742,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 506238631}
   nextWaypoint: {fileID: 1449900283}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &462051899
 Transform:
   m_ObjectHideFlags: 0
@@ -12817,6 +13118,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1131887263}
   nextWaypoint: {fileID: 210924481}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &468773143
 Transform:
   m_ObjectHideFlags: 0
@@ -12994,6 +13300,91 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 470546690}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &470759186
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 470759190}
+  - component: {fileID: 470759189}
+  - component: {fileID: 470759188}
+  - component: {fileID: 470759187}
+  m_Layer: 0
+  m_Name: Signal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &470759187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 470759186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4add66beb9fb5ea4f91037b641fdec98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  crossing: {fileID: 1606065967}
+  initialDelay: 0
+  activeTime: 5
+  inactiveTime: 15
+--- !u!23 &470759188
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 470759186}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &470759189
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 470759186}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &470759190
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 470759186}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.375, y: 1, z: -19.846}
+  m_LocalScale: {x: 0.5, y: 1, z: 0.5}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &471182908
 GameObject:
   m_ObjectHideFlags: 0
@@ -13103,8 +13494,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedLimit: 10
-  pedCount: 0
 --- !u!4 &473818693
 Transform:
   m_ObjectHideFlags: 0
@@ -13158,6 +13547,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1299815341}
   nextWaypoint: {fileID: 1488678446}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &474276789
 Transform:
   m_ObjectHideFlags: 0
@@ -13198,8 +13592,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedLimit: 10
-  pedCount: 0
 --- !u!4 &482079698
 Transform:
   m_ObjectHideFlags: 0
@@ -13220,6 +13612,7 @@ Transform:
   - {fileID: 427783900}
   - {fileID: 1886359315}
   - {fileID: 1557777003}
+  - {fileID: 934524941}
   m_Father: {fileID: 1106358156}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13348,6 +13741,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1708590307}
   nextWaypoint: {fileID: 966806181}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!1 &487961491
 GameObject:
   m_ObjectHideFlags: 0
@@ -13542,6 +13940,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1981222227}
   nextWaypoint: {fileID: 1090970850}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &502079436
 Transform:
   m_ObjectHideFlags: 0
@@ -13585,6 +13988,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 591393409}
   nextWaypoint: {fileID: 887251516}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &504648478
 Transform:
   m_ObjectHideFlags: 0
@@ -13641,6 +14049,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 50285872}
   nextWaypoint: {fileID: 2124581180}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!1 &506238630
 GameObject:
   m_ObjectHideFlags: 0
@@ -13671,6 +14084,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 2087670829}
   nextWaypoint: {fileID: 462051898}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &506238632
 Transform:
   m_ObjectHideFlags: 0
@@ -14042,6 +14460,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 874186571}
   nextWaypoint: {fileID: 1465389367}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &514289800
 Transform:
   m_ObjectHideFlags: 0
@@ -14085,6 +14508,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1226082492}
   nextWaypoint: {fileID: 1191258126}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &515609473
 Transform:
   m_ObjectHideFlags: 0
@@ -14172,6 +14600,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1090970850}
   nextWaypoint: {fileID: 874186571}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &523588515
 Transform:
   m_ObjectHideFlags: 0
@@ -14379,6 +14812,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 886724030}
   nextWaypoint: {fileID: 1482020137}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &535994107
 Transform:
   m_ObjectHideFlags: 0
@@ -14504,6 +14942,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1581849533}
   nextWaypoint: {fileID: 1585269020}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &538425310
 Transform:
   m_ObjectHideFlags: 0
@@ -14793,6 +15236,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 403607573}
   nextWaypoint: {fileID: 1649002951}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &551508270
 Transform:
   m_ObjectHideFlags: 0
@@ -15082,6 +15530,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 368732934}
   nextWaypoint: {fileID: 2114056415}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &561765282
 Transform:
   m_ObjectHideFlags: 0
@@ -15453,6 +15906,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 845861848}
   nextWaypoint: {fileID: 1095101770}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &572659434
 Transform:
   m_ObjectHideFlags: 0
@@ -15660,6 +16118,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1143627965}
   nextWaypoint: {fileID: 699787363}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &574336765
 Transform:
   m_ObjectHideFlags: 0
@@ -15703,6 +16166,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 84960682}
   nextWaypoint: {fileID: 591393409}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &574892130
 Transform:
   m_ObjectHideFlags: 0
@@ -15746,6 +16214,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 283139209}
   nextWaypoint: {fileID: 1769734186}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &577118386
 Transform:
   m_ObjectHideFlags: 0
@@ -16117,6 +16590,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 574892129}
   nextWaypoint: {fileID: 504648477}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &591393410
 Transform:
   m_ObjectHideFlags: 0
@@ -16204,6 +16682,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 267553144}
   nextWaypoint: {fileID: 1883734391}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &596046764
 Transform:
   m_ObjectHideFlags: 0
@@ -16329,6 +16812,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1095101770}
   nextWaypoint: {fileID: 32043233}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &607265119
 Transform:
   m_ObjectHideFlags: 0
@@ -16618,6 +17106,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1871214319}
   nextWaypoint: {fileID: 1397796064}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &629138243
 Transform:
   m_ObjectHideFlags: 0
@@ -16795,6 +17288,12 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 642337830}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &643576760 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114426378980927824, guid: 67ba51043c0d76b4386e15822bc025cf,
+    type: 2}
+  m_PrefabInternal: {fileID: 1891759119}
+  m_Script: {fileID: 11500000, guid: d80ebe1162620244088c98bf2b8c5b0f, type: 3}
 --- !u!1 &643584503
 GameObject:
   m_ObjectHideFlags: 0
@@ -17100,6 +17599,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 772062393}
   nextWaypoint: {fileID: 283139209}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &661691705
 Transform:
   m_ObjectHideFlags: 0
@@ -17501,6 +18005,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 284263646}
   nextWaypoint: {fileID: 1621666961}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &667204338
 Transform:
   m_ObjectHideFlags: 0
@@ -17790,6 +18299,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 711353192}
   nextWaypoint: {fileID: 368732934}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &677260859
 Transform:
   m_ObjectHideFlags: 0
@@ -17997,6 +18511,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 861160280}
   nextWaypoint: {fileID: 1693890526}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &678878753
 Transform:
   m_ObjectHideFlags: 0
@@ -18053,6 +18572,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 32043233}
   nextWaypoint: {fileID: 1066529881}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!1 &687274189
 GameObject:
   m_ObjectHideFlags: 0
@@ -18411,6 +18935,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 574336764}
   nextWaypoint: {fileID: 1606388265}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &699787364
 Transform:
   m_ObjectHideFlags: 0
@@ -18847,6 +19376,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1438587729}
   nextWaypoint: {fileID: 677260858}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &711353193
 Transform:
   m_ObjectHideFlags: 0
@@ -18969,8 +19503,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedLimit: 10
-  pedCount: 0
 --- !u!4 &712655813
 Transform:
   m_ObjectHideFlags: 0
@@ -19024,6 +19556,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1700699665}
   nextWaypoint: {fileID: 1085317088}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &713368459
 Transform:
   m_ObjectHideFlags: 0
@@ -19067,6 +19604,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 2077611727}
   nextWaypoint: {fileID: 1064811425}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &716318787
 Transform:
   m_ObjectHideFlags: 0
@@ -19930,6 +20472,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 844714062}
   nextWaypoint: {fileID: 2102984134}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &750904814
 Transform:
   m_ObjectHideFlags: 0
@@ -20055,6 +20602,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1808694905}
   nextWaypoint: {fileID: 1313342585}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &754681426
 Transform:
   m_ObjectHideFlags: 0
@@ -20262,6 +20814,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 449658891}
   nextWaypoint: {fileID: 411211009}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &762174048
 Transform:
   m_ObjectHideFlags: 0
@@ -20318,6 +20875,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1446005373}
   nextWaypoint: {fileID: 1226082492}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!1 &766719370
 GameObject:
   m_ObjectHideFlags: 0
@@ -20430,6 +20992,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1915454123}
   nextWaypoint: {fileID: 858670190}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &768685721
 Transform:
   m_ObjectHideFlags: 0
@@ -20473,6 +21040,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1260711034}
   nextWaypoint: {fileID: 449658891}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &769476815
 Transform:
   m_ObjectHideFlags: 0
@@ -20516,6 +21088,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1039428201}
   nextWaypoint: {fileID: 661691704}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &772062394
 Transform:
   m_ObjectHideFlags: 0
@@ -21215,6 +21792,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 450173994}
   nextWaypoint: {fileID: 1039428201}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &803370308
 Transform:
   m_ObjectHideFlags: 0
@@ -21258,6 +21840,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 412164365}
   nextWaypoint: {fileID: 1739126073}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &814821881
 Transform:
   m_ObjectHideFlags: 0
@@ -21383,6 +21970,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 210924481}
   nextWaypoint: {fileID: 1579212795}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &824302520
 Transform:
   m_ObjectHideFlags: 0
@@ -21426,6 +22018,12 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1230818347}
   nextWaypoint: {fileID: 947223224}
   radius: 1
+  branches:
+  - {fileID: 934524940}
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &827941040
 Transform:
   m_ObjectHideFlags: 0
@@ -21433,7 +22031,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 827941038}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 9.94}
+  m_LocalPosition: {x: 1.62, y: 0, z: 10.88}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 482079698}
@@ -21469,6 +22067,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 96570787}
   nextWaypoint: {fileID: 2073933850}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &829526377
 Transform:
   m_ObjectHideFlags: 0
@@ -21755,8 +22358,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedLimit: 10
-  pedCount: 0
 --- !u!4 &840128841
 Transform:
   m_ObjectHideFlags: 0
@@ -21810,6 +22411,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1567898283}
   nextWaypoint: {fileID: 267980422}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &840962946
 Transform:
   m_ObjectHideFlags: 0
@@ -21853,6 +22459,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1579212795}
   nextWaypoint: {fileID: 1418535011}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &843363899
 Transform:
   m_ObjectHideFlags: 0
@@ -21896,6 +22507,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1883734391}
   nextWaypoint: {fileID: 750904813}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &844714063
 Transform:
   m_ObjectHideFlags: 0
@@ -21939,6 +22555,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1002811249}
   nextWaypoint: {fileID: 254269994}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &845187077
 Transform:
   m_ObjectHideFlags: 0
@@ -21982,6 +22603,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 132592655}
   nextWaypoint: {fileID: 572659433}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &845861849
 Transform:
   m_ObjectHideFlags: 0
@@ -22069,6 +22695,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1866311864}
   nextWaypoint: {fileID: 1446005373}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &848261323
 Transform:
   m_ObjectHideFlags: 0
@@ -22358,6 +22989,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 207678709}
   nextWaypoint: {fileID: 25434379}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &858010361
 Transform:
   m_ObjectHideFlags: 0
@@ -22412,8 +23048,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 411211009}
-  nextWaypoint: {fileID: 1393716276}
+  nextWaypoint: {fileID: 0}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!1 &858670189
 GameObject:
   m_ObjectHideFlags: 0
@@ -22444,6 +23085,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 768685720}
   nextWaypoint: {fileID: 224722315}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &858670191
 Transform:
   m_ObjectHideFlags: 0
@@ -22569,6 +23215,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 2102984134}
   nextWaypoint: {fileID: 678878752}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &861160281
 Transform:
   m_ObjectHideFlags: 0
@@ -23009,6 +23660,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 523588514}
   nextWaypoint: {fileID: 514289799}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!1 &874673015
 GameObject:
   m_ObjectHideFlags: 0
@@ -23121,6 +23777,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1422255411}
   nextWaypoint: {fileID: 1984849972}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &876452788
 Transform:
   m_ObjectHideFlags: 0
@@ -23492,6 +24153,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1606388265}
   nextWaypoint: {fileID: 535994106}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &886724031
 Transform:
   m_ObjectHideFlags: 0
@@ -23535,6 +24201,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 504648477}
   nextWaypoint: {fileID: 1553710116}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &887251517
 Transform:
   m_ObjectHideFlags: 0
@@ -23742,6 +24413,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1316182898}
   nextWaypoint: {fileID: 1834758793}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &895800476
 Transform:
   m_ObjectHideFlags: 0
@@ -23993,6 +24669,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1794072292}
   nextWaypoint: {fileID: 1485602128}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &914408581
 Transform:
   m_ObjectHideFlags: 0
@@ -24662,6 +25343,54 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 931627354}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &934524939
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 934524941}
+  - component: {fileID: 934524940}
+  m_Layer: 0
+  m_Name: Waypoint 10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &934524940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 934524939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d80ebe1162620244088c98bf2b8c5b0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  previousWaypoint: {fileID: 827941039}
+  nextWaypoint: {fileID: 1399710636}
+  radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 1
+  isCrossing: 0
+  canCross: 1
+--- !u!4 &934524941
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 934524939}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.78, y: 0, z: 10.61}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 482079698}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &935306771
 GameObject:
   m_ObjectHideFlags: 0
@@ -24818,6 +25547,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1666636911}
   nextWaypoint: {fileID: 1640012361}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &937493318
 Transform:
   m_ObjectHideFlags: 0
@@ -24861,6 +25595,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 420203849}
   nextWaypoint: {fileID: 1963000753}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &942206040
 Transform:
   m_ObjectHideFlags: 0
@@ -24986,6 +25725,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 827941039}
   nextWaypoint: {fileID: 1524502161}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &947223225
 Transform:
   m_ObjectHideFlags: 0
@@ -24993,7 +25737,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 947223223}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 4.13, y: 0, z: 12.2}
+  m_LocalPosition: {x: 5.98, y: 0, z: 12.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 482079698}
@@ -25206,6 +25950,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1139003791}
   nextWaypoint: {fileID: 1095489725}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!1 &951721522
 GameObject:
   m_ObjectHideFlags: 0
@@ -25290,6 +26039,54 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &954526612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 954526614}
+  - component: {fileID: 954526613}
+  m_Layer: 0
+  m_Name: Waypoint 10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &954526613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 954526612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d80ebe1162620244088c98bf2b8c5b0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  previousWaypoint: {fileID: 30185290}
+  nextWaypoint: {fileID: 643576760}
+  radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 1
+  isCrossing: 0
+  canCross: 1
+--- !u!4 &954526614
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 954526612}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.70710677}
+  m_LocalPosition: {x: 21.25, y: 0, z: 10.46}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2130911274}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: -270, z: 0}
 --- !u!1 &955054242
 GameObject:
   m_ObjectHideFlags: 0
@@ -25402,6 +26199,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1092408059}
   nextWaypoint: {fileID: 218271241}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &956361284
 Transform:
   m_ObjectHideFlags: 0
@@ -25764,6 +26566,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 486996802}
   nextWaypoint: {fileID: 84960682}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &966806182
 Transform:
   m_ObjectHideFlags: 0
@@ -26148,6 +26955,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1114735158}
   nextWaypoint: {fileID: 1144610987}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!1 &987453543
 GameObject:
   m_ObjectHideFlags: 0
@@ -26191,6 +27003,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 276389559}
   nextWaypoint: {fileID: 1316182898}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!1 &987842427
 GameObject:
   m_ObjectHideFlags: 0
@@ -26757,6 +27574,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 221722231}
   nextWaypoint: {fileID: 845187076}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1002811250
 Transform:
   m_ObjectHideFlags: 0
@@ -27207,8 +28029,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedLimit: 10
-  pedCount: 0
 --- !u!4 &1024000409
 Transform:
   m_ObjectHideFlags: 0
@@ -27262,6 +28082,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1739686985}
   nextWaypoint: {fileID: 2049480373}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1024335173
 Transform:
   m_ObjectHideFlags: 0
@@ -27302,8 +28127,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedLimit: 10
-  pedCount: 0
 --- !u!4 &1028678809
 Transform:
   m_ObjectHideFlags: 0
@@ -27439,6 +28262,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1414092060}
   nextWaypoint: {fileID: 432378761}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1032092587
 Transform:
   m_ObjectHideFlags: 0
@@ -27482,6 +28310,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 2073933850}
   nextWaypoint: {fileID: 1173650298}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1035215041
 Transform:
   m_ObjectHideFlags: 0
@@ -27607,6 +28440,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 803370307}
   nextWaypoint: {fileID: 772062393}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1039428202
 Transform:
   m_ObjectHideFlags: 0
@@ -27732,6 +28570,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1144610987}
   nextWaypoint: {fileID: 2009632564}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1046108259
 Transform:
   m_ObjectHideFlags: 0
@@ -28103,6 +28946,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1393716276}
   nextWaypoint: {fileID: 2028321913}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1060706443
 Transform:
   m_ObjectHideFlags: 0
@@ -28228,6 +29076,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 716318786}
   nextWaypoint: {fileID: 1347243310}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1064811426
 Transform:
   m_ObjectHideFlags: 0
@@ -28271,6 +29124,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 680991220}
   nextWaypoint: {fileID: 1535209621}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1066529882
 Transform:
   m_ObjectHideFlags: 0
@@ -28311,8 +29169,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedLimit: 10
-  pedCount: 0
 --- !u!4 &1069254656
 Transform:
   m_ObjectHideFlags: 0
@@ -28691,8 +29547,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedLimit: 10
-  pedCount: 0
 --- !u!4 &1085257439
 Transform:
   m_ObjectHideFlags: 0
@@ -28746,6 +29600,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 713368458}
   nextWaypoint: {fileID: 1870803490}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1085317089
 Transform:
   m_ObjectHideFlags: 0
@@ -28789,6 +29648,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 502079435}
   nextWaypoint: {fileID: 523588514}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1090970851
 Transform:
   m_ObjectHideFlags: 0
@@ -28832,6 +29696,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1395445472}
   nextWaypoint: {fileID: 956361283}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1092408060
 Transform:
   m_ObjectHideFlags: 0
@@ -28957,6 +29826,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 572659433}
   nextWaypoint: {fileID: 607265118}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1095101771
 Transform:
   m_ObjectHideFlags: 0
@@ -29000,6 +29874,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1472802994}
   nextWaypoint: {fileID: 1560257228}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1095452641
 Transform:
   m_ObjectHideFlags: 0
@@ -29043,6 +29922,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 950881561}
   nextWaypoint: {fileID: 2077611727}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1095489726
 Transform:
   m_ObjectHideFlags: 0
@@ -29431,7 +30315,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1106358154}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2125818759}
@@ -29577,6 +30461,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1449900283}
   nextWaypoint: {fileID: 1114735158}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1113852097
 Transform:
   m_ObjectHideFlags: 0
@@ -29620,6 +30509,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1113852096}
   nextWaypoint: {fileID: 986180756}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1114735159
 Transform:
   m_ObjectHideFlags: 0
@@ -29758,6 +30652,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1663550745}
   nextWaypoint: {fileID: 2083824942}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!1 &1120284873
 GameObject:
   m_ObjectHideFlags: 0
@@ -30078,6 +30977,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 2083824942}
   nextWaypoint: {fileID: 468773142}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1131887264
 Transform:
   m_ObjectHideFlags: 0
@@ -30285,6 +31189,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 232542526}
   nextWaypoint: {fileID: 950881561}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1139003792
 Transform:
   m_ObjectHideFlags: 0
@@ -30292,7 +31201,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1139003790}
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 16.92, y: 0, z: -8.66}
+  m_LocalPosition: {x: 18.42, y: 0, z: -8.66}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1207472741}
@@ -30328,6 +31237,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1302119411}
   nextWaypoint: {fileID: 574336764}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1143627966
 Transform:
   m_ObjectHideFlags: 0
@@ -30371,6 +31285,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 986180756}
   nextWaypoint: {fileID: 1046108258}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1144610988
 Transform:
   m_ObjectHideFlags: 0
@@ -30906,6 +31825,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1297906352}
   nextWaypoint: {fileID: 1683723380}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1167301579
 Transform:
   m_ObjectHideFlags: 0
@@ -30949,6 +31873,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1700067318}
   nextWaypoint: {fileID: 211994695}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1168203814
 Transform:
   m_ObjectHideFlags: 0
@@ -31238,6 +32167,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1035215040}
   nextWaypoint: {fileID: 221722231}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1173650299
 Transform:
   m_ObjectHideFlags: 0
@@ -31281,6 +32215,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1191258126}
   nextWaypoint: {fileID: 205219940}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1174099991
 Transform:
   m_ObjectHideFlags: 0
@@ -31652,6 +32591,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 515609472}
   nextWaypoint: {fileID: 1174099990}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1191258127
 Transform:
   m_ObjectHideFlags: 0
@@ -31692,8 +32636,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedLimit: 10
-  pedCount: 0
 --- !u!4 &1207472741
 Transform:
   m_ObjectHideFlags: 0
@@ -32453,6 +33395,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1524502161}
   nextWaypoint: {fileID: 186667200}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1220941690
 Transform:
   m_ObjectHideFlags: 0
@@ -32496,6 +33443,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 765379584}
   nextWaypoint: {fileID: 515609472}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1226082493
 Transform:
   m_ObjectHideFlags: 0
@@ -32539,6 +33491,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1675419936}
   nextWaypoint: {fileID: 827941039}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1230818348
 Transform:
   m_ObjectHideFlags: 0
@@ -32546,7 +33503,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1230818346}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 2.49}
+  m_LocalPosition: {x: 0.22, y: 0, z: 6.58}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 482079698}
@@ -32828,6 +33785,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1949030797}
   nextWaypoint: {fileID: 1395445472}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1246197886
 Transform:
   m_ObjectHideFlags: 0
@@ -32953,6 +33915,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1405686893}
   nextWaypoint: {fileID: 333181090}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1252862727
 Transform:
   m_ObjectHideFlags: 0
@@ -32996,6 +33963,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1963000753}
   nextWaypoint: {fileID: 1739686985}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1260564824
 Transform:
   m_ObjectHideFlags: 0
@@ -33039,6 +34011,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 140013674}
   nextWaypoint: {fileID: 769476814}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1260711035
 Transform:
   m_ObjectHideFlags: 0
@@ -33082,6 +34059,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 258879836}
   nextWaypoint: {fileID: 1371917815}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1262473074
 Transform:
   m_ObjectHideFlags: 0
@@ -33225,6 +34207,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1482020137}
   nextWaypoint: {fileID: 1734823132}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1274285899
 Transform:
   m_ObjectHideFlags: 0
@@ -33678,6 +34665,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 2124581180}
   nextWaypoint: {fileID: 191268339}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1286356799
 Transform:
   m_ObjectHideFlags: 0
@@ -34210,8 +35202,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedLimit: 10
-  pedCount: 0
 --- !u!4 &1297218582
 Transform:
   m_ObjectHideFlags: 0
@@ -34360,6 +35350,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1585269020}
   nextWaypoint: {fileID: 1167301578}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!1 &1298938518
 GameObject:
   m_ObjectHideFlags: 0
@@ -34516,6 +35511,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 346448555}
   nextWaypoint: {fileID: 474276788}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1299815342
 Transform:
   m_ObjectHideFlags: 0
@@ -34572,6 +35572,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1734823132}
   nextWaypoint: {fileID: 1143627965}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!1 &1303293080
 GameObject:
   m_ObjectHideFlags: 0
@@ -34861,6 +35866,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 754681425}
   nextWaypoint: {fileID: 5273702}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!1 &1315825861
 GameObject:
   m_ObjectHideFlags: 0
@@ -34973,6 +35983,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 987453545}
   nextWaypoint: {fileID: 895800475}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1316182899
 Transform:
   m_ObjectHideFlags: 0
@@ -35836,6 +36851,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1064811425}
   nextWaypoint: {fileID: 39484805}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1347243311
 Transform:
   m_ObjectHideFlags: 0
@@ -35879,6 +36899,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1625832272}
   nextWaypoint: {fileID: 1806353429}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1350019629
 Transform:
   m_ObjectHideFlags: 0
@@ -36294,6 +37319,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1262473073}
   nextWaypoint: {fileID: 1700067318}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1371917816
 Transform:
   m_ObjectHideFlags: 0
@@ -36791,6 +37821,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1718102137}
   nextWaypoint: {fileID: 1949030797}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1392991987
 Transform:
   m_ObjectHideFlags: 0
@@ -36834,6 +37869,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 858433187}
   nextWaypoint: {fileID: 1060706442}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1393716277
 Transform:
   m_ObjectHideFlags: 0
@@ -36877,6 +37917,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1246197885}
   nextWaypoint: {fileID: 1092408059}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1395445473
 Transform:
   m_ObjectHideFlags: 0
@@ -36920,6 +37965,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1870803490}
   nextWaypoint: {fileID: 2067932092}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1395889399
 Transform:
   m_ObjectHideFlags: 0
@@ -36963,6 +38013,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 629138242}
   nextWaypoint: {fileID: 420203849}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1397796065
 Transform:
   m_ObjectHideFlags: 0
@@ -36976,6 +38031,12 @@ Transform:
   m_Father: {fileID: 120738021}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
+--- !u!114 &1399710636 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114248215230005868, guid: 67ba51043c0d76b4386e15822bc025cf,
+    type: 2}
+  m_PrefabInternal: {fileID: 1891759119}
+  m_Script: {fileID: 11500000, guid: d80ebe1162620244088c98bf2b8c5b0f, type: 3}
 --- !u!1 &1400678056
 GameObject:
   m_ObjectHideFlags: 0
@@ -37088,6 +38149,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 2020563641}
   nextWaypoint: {fileID: 1252862726}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1405686894
 Transform:
   m_ObjectHideFlags: 0
@@ -37516,6 +38582,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 328503394}
   nextWaypoint: {fileID: 1032092586}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!1 &1418535010
 GameObject:
   m_ObjectHideFlags: 0
@@ -37546,6 +38617,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 843363898}
   nextWaypoint: {fileID: 1663550745}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1418535012
 Transform:
   m_ObjectHideFlags: 0
@@ -37671,6 +38747,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 267980422}
   nextWaypoint: {fileID: 152884459}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1421885576
 Transform:
   m_ObjectHideFlags: 0
@@ -37714,6 +38795,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1758908498}
   nextWaypoint: {fileID: 876452787}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1422255412
 Transform:
   m_ObjectHideFlags: 0
@@ -38003,6 +39089,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 2113183312}
   nextWaypoint: {fileID: 1960185253}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1431340946
 Transform:
   m_ObjectHideFlags: 0
@@ -38172,6 +39263,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 333181090}
   nextWaypoint: {fileID: 711353192}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1438587730
 Transform:
   m_ObjectHideFlags: 0
@@ -38215,6 +39311,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 848261322}
   nextWaypoint: {fileID: 765379584}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1446005374
 Transform:
   m_ObjectHideFlags: 0
@@ -38258,6 +39359,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 462051898}
   nextWaypoint: {fileID: 1113852096}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1449900284
 Transform:
   m_ObjectHideFlags: 0
@@ -38711,6 +39817,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 514289799}
   nextWaypoint: {fileID: 426500821}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1465389368
 Transform:
   m_ObjectHideFlags: 0
@@ -38836,6 +39947,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 205219940}
   nextWaypoint: {fileID: 1866311864}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1466024004
 Transform:
   m_ObjectHideFlags: 0
@@ -38879,6 +39995,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1683723380}
   nextWaypoint: {fileID: 1095452640}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1472802995
 Transform:
   m_ObjectHideFlags: 0
@@ -38922,6 +40043,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 432378761}
   nextWaypoint: {fileID: 1915454123}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1477028298
 Transform:
   m_ObjectHideFlags: 0
@@ -39211,6 +40337,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 535994106}
   nextWaypoint: {fileID: 1274285898}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1482020138
 Transform:
   m_ObjectHideFlags: 0
@@ -39254,6 +40385,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 914408580}
   nextWaypoint: {fileID: 2040470394}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1485602129
 Transform:
   m_ObjectHideFlags: 0
@@ -39297,6 +40433,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 474276788}
   nextWaypoint: {fileID: 2113183312}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1488678447
 Transform:
   m_ObjectHideFlags: 0
@@ -39422,6 +40563,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 2028858074}
   nextWaypoint: {fileID: 207678709}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1493230780
 Transform:
   m_ObjectHideFlags: 0
@@ -39465,6 +40611,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1693890526}
   nextWaypoint: {fileID: 267553144}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1494411780
 Transform:
   m_ObjectHideFlags: 0
@@ -39713,8 +40864,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedLimit: 10
-  pedCount: 0
 --- !u!4 &1502506963
 Transform:
   m_ObjectHideFlags: 0
@@ -39781,6 +40930,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1640012361}
   nextWaypoint: {fileID: 1783418042}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!1 &1523797605
 GameObject:
   m_ObjectHideFlags: 0
@@ -39893,6 +41047,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 947223224}
   nextWaypoint: {fileID: 1220941689}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1524502162
 Transform:
   m_ObjectHideFlags: 0
@@ -39936,6 +41095,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 21246512}
   nextWaypoint: {fileID: 97597044}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1527925527
 Transform:
   m_ObjectHideFlags: 0
@@ -40061,6 +41225,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1066529881}
   nextWaypoint: {fileID: 1772535327}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1535209622
 Transform:
   m_ObjectHideFlags: 0
@@ -40104,6 +41273,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 109795104}
   nextWaypoint: {fileID: 1625540731}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1537648799
 Transform:
   m_ObjectHideFlags: 0
@@ -40147,6 +41321,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 30185290}
   nextWaypoint: {fileID: 1963780147}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1545504473
 Transform:
   m_ObjectHideFlags: 0
@@ -40187,8 +41366,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedLimit: 10
-  pedCount: 0
 --- !u!4 &1545828477
 Transform:
   m_ObjectHideFlags: 0
@@ -40324,6 +41501,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 887251516}
   nextWaypoint: {fileID: 305525883}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1553710117
 Transform:
   m_ObjectHideFlags: 0
@@ -40872,6 +42054,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1886359314}
   nextWaypoint: {fileID: 1675419936}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!1 &1558636908
 GameObject:
   m_ObjectHideFlags: 0
@@ -40984,6 +42171,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1095452640}
   nextWaypoint: {fileID: 1918385957}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1560257229
 Transform:
   m_ObjectHideFlags: 0
@@ -41273,6 +42465,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 191268339}
   nextWaypoint: {fileID: 840962945}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1567898284
 Transform:
   m_ObjectHideFlags: 0
@@ -41442,6 +42639,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1677995264}
   nextWaypoint: {fileID: 2105707401}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1571008567
 Transform:
   m_ObjectHideFlags: 0
@@ -41482,8 +42684,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedLimit: 10
-  pedCount: 0
 --- !u!4 &1575151759
 Transform:
   m_ObjectHideFlags: 0
@@ -41619,6 +42819,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 824302519}
   nextWaypoint: {fileID: 843363898}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1579212796
 Transform:
   m_ObjectHideFlags: 0
@@ -41662,6 +42867,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1918385957}
   nextWaypoint: {fileID: 538425309}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1581849534
 Transform:
   m_ObjectHideFlags: 0
@@ -41787,6 +42997,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 538425309}
   nextWaypoint: {fileID: 1297906352}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1585269021
 Transform:
   m_ObjectHideFlags: 0
@@ -41830,6 +43045,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1955171352}
   nextWaypoint: {fileID: 1808694905}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1590919421
 Transform:
   m_ObjectHideFlags: 0
@@ -41873,6 +43093,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 179610932}
   nextWaypoint: {fileID: 289777925}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1597608320
 Transform:
   m_ObjectHideFlags: 0
@@ -42214,6 +43439,11 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1604382038}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1606065967 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1687711497921498, guid: 67ba51043c0d76b4386e15822bc025cf,
+    type: 2}
+  m_PrefabInternal: {fileID: 1891759119}
 --- !u!1 &1606388264
 GameObject:
   m_ObjectHideFlags: 0
@@ -42244,6 +43474,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 699787363}
   nextWaypoint: {fileID: 886724030}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1606388266
 Transform:
   m_ObjectHideFlags: 0
@@ -42577,6 +43812,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 667204337}
   nextWaypoint: {fileID: 1713671906}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1621666962
 Transform:
   m_ObjectHideFlags: 0
@@ -42702,6 +43942,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1537648798}
   nextWaypoint: {fileID: 1625832272}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1625540732
 Transform:
   m_ObjectHideFlags: 0
@@ -42758,6 +44003,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1625540731}
   nextWaypoint: {fileID: 1350019628}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!1 &1628200447
 GameObject:
   m_ObjectHideFlags: 0
@@ -42949,8 +44199,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedLimit: 10
-  pedCount: 0
 --- !u!4 &1637310127
 Transform:
   m_ObjectHideFlags: 0
@@ -43004,6 +44252,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 937493317}
   nextWaypoint: {fileID: 1516046822}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1640012362
 Transform:
   m_ObjectHideFlags: 0
@@ -43211,6 +44464,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 551508269}
   nextWaypoint: {fileID: 2053920078}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1649002952
 Transform:
   m_ObjectHideFlags: 0
@@ -43582,6 +44840,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1418535011}
   nextWaypoint: {fileID: 1118153067}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1663550746
 Transform:
   m_ObjectHideFlags: 0
@@ -43625,6 +44888,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 25434379}
   nextWaypoint: {fileID: 937493317}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1666636912
 Transform:
   m_ObjectHideFlags: 0
@@ -43750,6 +45018,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1557777004}
   nextWaypoint: {fileID: 1230818347}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1675419937
 Transform:
   m_ObjectHideFlags: 0
@@ -43875,6 +45148,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 89802398}
   nextWaypoint: {fileID: 1571008566}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1677995265
 Transform:
   m_ObjectHideFlags: 0
@@ -44082,6 +45360,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1167301578}
   nextWaypoint: {fileID: 1472802994}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1683723381
 Transform:
   m_ObjectHideFlags: 0
@@ -44415,6 +45698,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 678878752}
   nextWaypoint: {fileID: 1494411779}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1693890527
 Transform:
   m_ObjectHideFlags: 0
@@ -44540,6 +45828,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1371917815}
   nextWaypoint: {fileID: 1168203813}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1700067319
 Transform:
   m_ObjectHideFlags: 0
@@ -44665,6 +45958,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 456371105}
   nextWaypoint: {fileID: 713368458}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1700699666
 Transform:
   m_ObjectHideFlags: 0
@@ -44708,6 +46006,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 305525883}
   nextWaypoint: {fileID: 486996802}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1708590308
 Transform:
   m_ObjectHideFlags: 0
@@ -44915,6 +46218,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1621666961}
   nextWaypoint: {fileID: 273413477}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1713671907
 Transform:
   m_ObjectHideFlags: 0
@@ -45040,6 +46348,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 261338674}
   nextWaypoint: {fileID: 1392991986}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1718102138
 Transform:
   m_ObjectHideFlags: 0
@@ -45162,8 +46475,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedLimit: 10
-  pedCount: 0
 --- !u!4 &1725114130
 Transform:
   m_ObjectHideFlags: 0
@@ -45217,6 +46528,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1274285898}
   nextWaypoint: {fileID: 1302119411}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1734823133
 Transform:
   m_ObjectHideFlags: 0
@@ -45342,6 +46658,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 814821880}
   nextWaypoint: {fileID: 30185290}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1739126074
 Transform:
   m_ObjectHideFlags: 0
@@ -45349,7 +46670,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1739126072}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 18.87, y: 0, z: 12.01}
+  m_LocalPosition: {x: 17.81, y: 0, z: 12.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2130911274}
@@ -45385,6 +46706,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1260564823}
   nextWaypoint: {fileID: 1024335172}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1739686986
 Transform:
   m_ObjectHideFlags: 0
@@ -45838,6 +47164,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1834758793}
   nextWaypoint: {fileID: 1422255411}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1758908499
 Transform:
   m_ObjectHideFlags: 0
@@ -45881,6 +47212,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 2054171817}
   nextWaypoint: {fileID: 284263646}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1760271291
 Transform:
   m_ObjectHideFlags: 0
@@ -46088,6 +47424,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 577118385}
   nextWaypoint: {fileID: 432397384}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1769734187
 Transform:
   m_ObjectHideFlags: 0
@@ -46213,6 +47554,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1535209621}
   nextWaypoint: {fileID: 132592655}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1772535328
 Transform:
   m_ObjectHideFlags: 0
@@ -46420,6 +47766,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1516046822}
   nextWaypoint: {fileID: 2028858074}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1783418043
 Transform:
   m_ObjectHideFlags: 0
@@ -46460,8 +47811,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedLimit: 10
-  pedCount: 0
 --- !u!4 &1783638055
 Transform:
   m_ObjectHideFlags: 0
@@ -46761,6 +48110,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1806353429}
   nextWaypoint: {fileID: 914408580}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1794072293
 Transform:
   m_ObjectHideFlags: 0
@@ -46804,6 +48158,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 273413477}
   nextWaypoint: {fileID: 2012101762}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1797624262
 Transform:
   m_ObjectHideFlags: 0
@@ -46847,6 +48206,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1350019628}
   nextWaypoint: {fileID: 1794072292}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1806353430
 Transform:
   m_ObjectHideFlags: 0
@@ -46972,6 +48336,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1590919420}
   nextWaypoint: {fileID: 754681425}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1808694906
 Transform:
   m_ObjectHideFlags: 0
@@ -47097,6 +48466,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 426500821}
   nextWaypoint: {fileID: 442138007}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1812833234
 Transform:
   m_ObjectHideFlags: 0
@@ -47550,6 +48924,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 895800475}
   nextWaypoint: {fileID: 1758908498}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1834758794
 Transform:
   m_ObjectHideFlags: 0
@@ -47921,6 +49300,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1466024003}
   nextWaypoint: {fileID: 848261322}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1866311865
 Transform:
   m_ObjectHideFlags: 0
@@ -47964,6 +49348,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1085317088}
   nextWaypoint: {fileID: 1395889398}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1870803491
 Transform:
   m_ObjectHideFlags: 0
@@ -48007,6 +49396,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 2049480373}
   nextWaypoint: {fileID: 629138242}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1871214320
 Transform:
   m_ObjectHideFlags: 0
@@ -48309,6 +49703,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 596046763}
   nextWaypoint: {fileID: 844714062}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!1 &1886359313
 GameObject:
   m_ObjectHideFlags: 0
@@ -48339,6 +49738,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 427783899}
   nextWaypoint: {fileID: 1557777004}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1886359315
 Transform:
   m_ObjectHideFlags: 0
@@ -48516,6 +49920,78 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1891449884}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1891759119
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4024167471301994, guid: 67ba51043c0d76b4386e15822bc025cf, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -12.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024167471301994, guid: 67ba51043c0d76b4386e15822bc025cf, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024167471301994, guid: 67ba51043c0d76b4386e15822bc025cf, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -21.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024167471301994, guid: 67ba51043c0d76b4386e15822bc025cf, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024167471301994, guid: 67ba51043c0d76b4386e15822bc025cf, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024167471301994, guid: 67ba51043c0d76b4386e15822bc025cf, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024167471301994, guid: 67ba51043c0d76b4386e15822bc025cf, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024167471301994, guid: 67ba51043c0d76b4386e15822bc025cf, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114849028038708164, guid: 67ba51043c0d76b4386e15822bc025cf,
+        type: 2}
+      propertyPath: nextWaypoint
+      value: 
+      objectReference: {fileID: 30185290}
+    - target: {fileID: 114728138921447582, guid: 67ba51043c0d76b4386e15822bc025cf,
+        type: 2}
+      propertyPath: nextWaypoint
+      value: 
+      objectReference: {fileID: 827941039}
+    - target: {fileID: 114849028038708164, guid: 67ba51043c0d76b4386e15822bc025cf,
+        type: 2}
+      propertyPath: canCross
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114728138921447582, guid: 67ba51043c0d76b4386e15822bc025cf,
+        type: 2}
+      propertyPath: canCross
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114426378980927824, guid: 67ba51043c0d76b4386e15822bc025cf,
+        type: 2}
+      propertyPath: canCross
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114248215230005868, guid: 67ba51043c0d76b4386e15822bc025cf,
+        type: 2}
+      propertyPath: canCross
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 67ba51043c0d76b4386e15822bc025cf, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1892000877
 GameObject:
   m_ObjectHideFlags: 0
@@ -48625,8 +50101,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedLimit: 10
-  pedCount: 0
 --- !u!4 &1894484677
 Transform:
   m_ObjectHideFlags: 0
@@ -48803,8 +50277,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedLimit: 10
-  pedCount: 0
 --- !u!4 &1903373409
 Transform:
   m_ObjectHideFlags: 0
@@ -49104,6 +50576,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1477028297}
   nextWaypoint: {fileID: 768685720}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1915454124
 Transform:
   m_ObjectHideFlags: 0
@@ -49147,6 +50624,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 211994695}
   nextWaypoint: {fileID: 21246512}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1916322748
 Transform:
   m_ObjectHideFlags: 0
@@ -49154,7 +50636,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1916322746}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 18.87, y: 0, z: 12.01}
+  m_LocalPosition: {x: 18.56, y: 0, z: 12.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 473818693}
@@ -49190,6 +50672,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1560257228}
   nextWaypoint: {fileID: 1581849533}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1918385958
 Transform:
   m_ObjectHideFlags: 0
@@ -49807,6 +51294,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 224722315}
   nextWaypoint: {fileID: 328503394}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1942330373
 Transform:
   m_ObjectHideFlags: 0
@@ -49850,6 +51342,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1392991986}
   nextWaypoint: {fileID: 1246197885}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1949030798
 Transform:
   m_ObjectHideFlags: 0
@@ -49890,8 +51387,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedLimit: 10
-  pedCount: 0
 --- !u!4 &1949505406
 Transform:
   m_ObjectHideFlags: 0
@@ -49989,6 +51484,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 2053920078}
   nextWaypoint: {fileID: 1590919420}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1955171353
 Transform:
   m_ObjectHideFlags: 0
@@ -50032,6 +51532,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1431340945}
   nextWaypoint: {fileID: 117726666}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1960185254
 Transform:
   m_ObjectHideFlags: 0
@@ -50239,6 +51744,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 942206039}
   nextWaypoint: {fileID: 1260564823}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1963000754
 Transform:
   m_ObjectHideFlags: 0
@@ -50282,6 +51792,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1545504472}
   nextWaypoint: {fileID: 89802398}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1963780148
 Transform:
   m_ObjectHideFlags: 0
@@ -50653,6 +52168,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 442138007}
   nextWaypoint: {fileID: 502079435}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1981222228
 Transform:
   m_ObjectHideFlags: 0
@@ -50696,6 +52216,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 876452787}
   nextWaypoint: {fileID: 2062080252}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &1984849973
 Transform:
   m_ObjectHideFlags: 0
@@ -50982,8 +52507,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedLimit: 10
-  pedCount: 0
 --- !u!4 &1991752924
 Transform:
   m_ObjectHideFlags: 0
@@ -51283,6 +52806,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1046108258}
   nextWaypoint: {fileID: 2087670829}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &2009632565
 Transform:
   m_ObjectHideFlags: 0
@@ -51490,6 +53018,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1797624261}
   nextWaypoint: {fileID: 43946237}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &2012101763
 Transform:
   m_ObjectHideFlags: 0
@@ -51612,8 +53145,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedLimit: 10
-  pedCount: 0
 --- !u!4 &2015893909
 Transform:
   m_ObjectHideFlags: 0
@@ -51762,6 +53293,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 2114056415}
   nextWaypoint: {fileID: 1405686893}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!1 &2028321912
 GameObject:
   m_ObjectHideFlags: 0
@@ -51792,6 +53328,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1060706442}
   nextWaypoint: {fileID: 140013674}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &2028321914
 Transform:
   m_ObjectHideFlags: 0
@@ -51835,6 +53376,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1783418042}
   nextWaypoint: {fileID: 1493230779}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &2028858075
 Transform:
   m_ObjectHideFlags: 0
@@ -52042,6 +53588,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1485602128}
   nextWaypoint: {fileID: 109795104}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &2040470395
 Transform:
   m_ObjectHideFlags: 0
@@ -52495,6 +54046,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1024335172}
   nextWaypoint: {fileID: 1871214319}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &2049480374
 Transform:
   m_ObjectHideFlags: 0
@@ -52784,6 +54340,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1649002951}
   nextWaypoint: {fileID: 1955171352}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &2053920079
 Transform:
   m_ObjectHideFlags: 0
@@ -52827,6 +54388,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 43946237}
   nextWaypoint: {fileID: 1760271290}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &2054171818
 Transform:
   m_ObjectHideFlags: 0
@@ -52952,6 +54518,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1984849972}
   nextWaypoint: {fileID: 276389559}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &2062080253
 Transform:
   m_ObjectHideFlags: 0
@@ -53077,6 +54648,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1395889398}
   nextWaypoint: {fileID: 179610932}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &2067932093
 Transform:
   m_ObjectHideFlags: 0
@@ -53284,6 +54860,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 829526376}
   nextWaypoint: {fileID: 1035215040}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &2073933851
 Transform:
   m_ObjectHideFlags: 0
@@ -53409,6 +54990,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1095489725}
   nextWaypoint: {fileID: 716318786}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &2077611728
 Transform:
   m_ObjectHideFlags: 0
@@ -53534,6 +55120,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1118153067}
   nextWaypoint: {fileID: 1131887263}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &2083824943
 Transform:
   m_ObjectHideFlags: 0
@@ -53741,6 +55332,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 2009632564}
   nextWaypoint: {fileID: 506238631}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &2087670830
 Transform:
   m_ObjectHideFlags: 0
@@ -53948,6 +55544,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 750904813}
   nextWaypoint: {fileID: 861160280}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &2102984135
 Transform:
   m_ObjectHideFlags: 0
@@ -53991,6 +55592,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1571008566}
   nextWaypoint: {fileID: 412164365}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &2105707402
 Transform:
   m_ObjectHideFlags: 0
@@ -54198,6 +55804,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1488678446}
   nextWaypoint: {fileID: 1431340945}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &2113183313
 Transform:
   m_ObjectHideFlags: 0
@@ -54323,6 +55934,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 561765281}
   nextWaypoint: {fileID: 2020563641}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &2114056416
 Transform:
   m_ObjectHideFlags: 0
@@ -54410,6 +56026,11 @@ MonoBehaviour:
   previousWaypoint: {fileID: 505706516}
   nextWaypoint: {fileID: 1286356798}
   radius: 1
+  branches: []
+  branchFactor: 0.5
+  isBranch: 0
+  isCrossing: 0
+  canCross: 1
 --- !u!4 &2124581181
 Transform:
   m_ObjectHideFlags: 0
@@ -54473,8 +56094,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedLimit: 10
-  pedCount: 0
 --- !u!1 &2130911272
 GameObject:
   m_ObjectHideFlags: 0
@@ -54502,8 +56121,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedLimit: 5
-  pedCount: 0
 --- !u!4 &2130911274
 Transform:
   m_ObjectHideFlags: 0
@@ -54524,6 +56141,7 @@ Transform:
   - {fileID: 1545504473}
   - {fileID: 1963780148}
   - {fileID: 89802397}
+  - {fileID: 954526614}
   m_Father: {fileID: 1106358156}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

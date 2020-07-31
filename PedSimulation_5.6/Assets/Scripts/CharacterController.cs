@@ -33,6 +33,8 @@ public class CharacterController : MonoBehaviour
     bool canMove = true;   //to determine whether character can move from idle state (in case of some idle animations having exit time
 
     int direction;
+    bool isCrossing = false;    //To check if player is on crossing and manipulate according to signals
+    bool canBranch = true;
 
     private void Awake()
     {
@@ -86,24 +88,77 @@ public class CharacterController : MonoBehaviour
         Vector3 dir = wayPoint.transform.position - transform.position;
         dir.y = 0f;
 
+        //Destination Distance
         float destinationDistance = dir.magnitude;
 
+        //If character reached waypoint
         if (destinationDistance <= stoppingDistance)
         {
-            if (direction == 0)
+            //Check if there is crossing and determine whether to take or not
+            
+            bool shouldBranch = false;
+            if(wayPoint.branches.Count > 0 && canBranch)
             {
-                wayPoint = wayPoint.nextWaypoint;
+                shouldBranch = Random.Range(0f, 1f) <= wayPoint.branchFactor ? true : false;
+            }
+            else if(wayPoint.branches.Count > 0 && !canBranch)
+            {
+                canBranch = true;
+            }
+            
+
+            
+            if (shouldBranch)
+            {
+                isCrossing = true;
+                direction = 0;
+                wayPoint = wayPoint.branches[Random.Range(0, wayPoint.branches.Count)];
+                canBranch = false;
             }
             else
             {
-                wayPoint = wayPoint.previousWaypoint;
+                if (isCrossing)
+                {
+                    if (wayPoint.block != block && !wayPoint.isCrossing)
+                    {
+                        isCrossing = false;
+                        direction = Random.Range(0, 2);
+                        block = wayPoint.block;
+                    }
+                    else if(wayPoint.nextWaypoint.canCross)
+                    {
+                        wayPoint = wayPoint.nextWaypoint;
+                        
+                    }
+                    else
+                    {
+                        //speed = 0f; //Make them stop
+                    }
+                }
+                else
+                {
+                    if (direction == 0)
+                    {
+                        wayPoint = wayPoint.nextWaypoint;
+                    }
+                    else
+                    {
+                        wayPoint = wayPoint.previousWaypoint;
+                    }
+                }
             }
         }
         else
         {
+            //Move
             Quaternion targetRotation = Quaternion.LookRotation(dir);
             transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
             transform.Translate(Vector3.forward * speed * Time.deltaTime);
+
+            if (isCrossing)
+            {
+                //Add signal and timer check to control speed and animation state
+            }
         }
 
 

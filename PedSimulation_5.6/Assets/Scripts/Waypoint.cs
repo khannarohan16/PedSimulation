@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class Waypoint : MonoBehaviour {
@@ -13,6 +12,14 @@ public class Waypoint : MonoBehaviour {
 	//Radius of waypoint area
 	[Range(0,2)]
 	public float radius = 1f;
+
+	public List<Waypoint> branches;
+
+	[Range(0f,1f)]
+	public float branchFactor = 0.5f; //How likely is the pedsetrain taking branch
+	public bool isBranch = false;   //To be set if the waypoint is branch of some node
+	public bool isCrossing = false;
+	public bool canCross = true;
 
 	void Awake()
 	{

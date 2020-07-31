@@ -1,7 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEditor;
+using System.Collections.Generic;
 
 public class WaypointTool : EditorWindow 
 {
@@ -19,7 +18,8 @@ public class WaypointTool : EditorWindow
 
 		EditorGUILayout.PropertyField(obj.FindProperty("waypointRoot"));
 
-		if(waypointRoot == null)
+		
+		if (waypointRoot == null)
 		{
 			EditorGUILayout.HelpBox("Root Transform must be initialized", MessageType.Warning);
 		}
@@ -31,7 +31,7 @@ public class WaypointTool : EditorWindow
 
 		obj.ApplyModifiedProperties();
 	}
-	
+
 	void DrawButtons()
 	{
 		//Default button to always create waypoint in end
@@ -55,7 +55,30 @@ public class WaypointTool : EditorWindow
 			{
 				DeleteWaypoint();
 			}
+			if(GUILayout.Button("Add Branch"))
+			{
+				AddBranch();
+			}
 		}
+	}
+
+	void AddBranch()
+	{
+		GameObject waypointObject = new GameObject("Waypoint " + waypointRoot.childCount, typeof(Waypoint));
+		waypointObject.transform.SetParent(waypointRoot, false);
+
+		Waypoint waypoint = waypointObject.GetComponent<Waypoint>();
+		
+		Waypoint branchedFrom = Selection.activeGameObject.GetComponent<Waypoint>();
+		branchedFrom.branches.Add(waypoint);
+
+		waypoint.previousWaypoint = branchedFrom;
+		waypoint.isBranch = true;
+
+		waypoint.transform.position = branchedFrom.transform.position;
+		waypoint.transform.forward = branchedFrom.transform.forward;
+
+		Selection.activeGameObject = waypoint.gameObject;
 	}
 
 	void CreateWaypoint()
@@ -129,16 +152,23 @@ public class WaypointTool : EditorWindow
 	void DeleteWaypoint()
 	{
 		Waypoint selectedWaypoint = Selection.activeGameObject.GetComponent<Waypoint>();
-
-		if (selectedWaypoint.previousWaypoint != null)
+		
+		if (selectedWaypoint.isBranch)
 		{
-			selectedWaypoint.previousWaypoint.nextWaypoint = selectedWaypoint.nextWaypoint;
+			selectedWaypoint.previousWaypoint.branches.Remove(selectedWaypoint);
 		}
-
-		if(selectedWaypoint.nextWaypoint != null)
+		else
 		{
-			selectedWaypoint.nextWaypoint.previousWaypoint = selectedWaypoint.previousWaypoint;
+			if (selectedWaypoint.previousWaypoint != null)
+			{
+				selectedWaypoint.previousWaypoint.nextWaypoint = selectedWaypoint.nextWaypoint;
+			}
+			if (selectedWaypoint.nextWaypoint != null)
+			{
+				selectedWaypoint.nextWaypoint.previousWaypoint = selectedWaypoint.previousWaypoint;
+			}
 		}
+		
 
 		DestroyImmediate(selectedWaypoint.gameObject);
 	}

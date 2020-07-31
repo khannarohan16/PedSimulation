@@ -27,6 +27,15 @@ public class WaypointDisplay
 		{
 			Gizmos.DrawLine(waypoint.transform.position, waypoint.nextWaypoint.transform.position);
 		}
+
+		if(waypoint.branches != null)
+		{
+			foreach (Waypoint branch in waypoint.branches)
+			{
+				Gizmos.color = Color.blue;
+				Gizmos.DrawLine(waypoint.transform.position, branch.transform.position);
+			}
+		}
 	}
 	
 }
