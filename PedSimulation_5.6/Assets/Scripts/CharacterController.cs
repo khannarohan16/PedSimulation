@@ -7,7 +7,7 @@ public class CharacterController : MonoBehaviour
 {
     Animator animator;
 
-    NavMeshAgent navAgent;
+    //NavMeshAgent navAgent;
 
     [SerializeField]
     AnimatorOverrideController overrideController;
@@ -19,39 +19,39 @@ public class CharacterController : MonoBehaviour
     [SerializeField] float runSpeed;
     
     //[SerializeField] float minDelay = 1f;    //Minimum interval between changing State
-    //[SerializeField] float maxDelay = 5f;    //Maximum interval between changing State
+    //[SerializeField] float maxDelay = 5f;    //Maximum interval between changing State    
 
     [SerializeField] float stoppingDistance;
     [SerializeField] float rotationSpeed;
 
-    [SerializeField] bool hasAltIdle = false;
-    [SerializeField] bool canRun = true;
+    //[SerializeField] bool hasAltIdle = false;
+    [SerializeField] bool canRun = true;    //Set depending on whether character has running animation or not
 
     float speed;
 
-    bool isMoving;
-    bool canMove = true;   //to determine whether character can move from idle state (in case of some idle animations having exit time
+    //bool isMoving;
+    //bool canMove = true;   //to determine whether character can move from idle state (in case of some idle animations having exit time)
 
     int direction;
     bool isCrossing = false;    //To check if player is on crossing and manipulate according to signals
-    bool canBranch = true;
+    bool canBranch = true;  //To ensure that character do not recrosses the same road
+
+    int moveState;  //To determine whether character is walking or running ( 0 : Walk, 1 : Run )
 
     private void Awake()
     {
         animator = GetComponent<Animator>();
-        navAgent = GetComponent<NavMeshAgent>();
         animator.runtimeAnimatorController = overrideController;
     }
 
     private void OnEnable()
     {
-        //isMoving = false;
-        //StartCoroutine("ProcessState");
-        direction = Random.Range(0, 2);
+        direction = Random.Range(0, 2); //Set the directtion of movement
 
+        //Make character to walk or run
         if (canRun)
         {
-            int moveState = Random.Range(0, 2);
+            moveState = Random.Range(0, 2);
 
             if (moveState == 0)
             {
@@ -68,6 +68,7 @@ public class CharacterController : MonoBehaviour
         }
         else
         {
+            moveState = 0;
             animator.SetTrigger("Walk");
             speed = walkSpeed;
         }
@@ -106,36 +107,47 @@ public class CharacterController : MonoBehaviour
                 canBranch = true;
             }
             
-
-            
+            //Actions depending on whether branch is taken or not
             if (shouldBranch)
             {
                 isCrossing = true;
-                direction = 0;
+                direction = 0;  //Since crossing waypoints are made such that character on only go on next waypoint
                 wayPoint = wayPoint.branches[Random.Range(0, wayPoint.branches.Count)];
                 canBranch = false;
             }
             else
             {
-                if (isCrossing)
-                {
-                    if (wayPoint.block != block && !wayPoint.isCrossing)
+                if (isCrossing) //If character is on crossing
+                {                   
+                    if (wayPoint.block != block && !wayPoint.isCrossing)    //When character reaches another block
                     {
                         isCrossing = false;
                         direction = Random.Range(0, 2);
                         block = wayPoint.block;
                     }
-                    else if(wayPoint.nextWaypoint.canCross)
+                    else if(wayPoint.nextWaypoint.canCross) //When character chose to cross and signal is green (determined by cancross field)
                     {
                         wayPoint = wayPoint.nextWaypoint;
-                        
+                        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle"))
+                        {
+                            if (moveState == 0)
+                            {
+                                //Walk
+                                animator.SetTrigger("Walk");
+                            }
+                            else
+                            {
+                                //Run
+                                animator.SetTrigger("Run");
+                            }
+                        }
                     }
-                    else
+                    else //When Signal is red
                     {
-                        //speed = 0f; //Make them stop
+                        animator.SetTrigger("Idle");
                     }
                 }
-                else
+                else // If character is on normal block
                 {
                     if (direction == 0)
                     {
@@ -148,17 +160,12 @@ public class CharacterController : MonoBehaviour
                 }
             }
         }
-        else
+        else //When character is on its way to next waypoint
         {
             //Move
             Quaternion targetRotation = Quaternion.LookRotation(dir);
             transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
             transform.Translate(Vector3.forward * speed * Time.deltaTime);
-
-            if (isCrossing)
-            {
-                //Add signal and timer check to control speed and animation state
-            }
         }
 
 

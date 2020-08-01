@@ -1,10 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 /** To manage number of pedstrians on each block / waypoint network */
 
-public class BlockScript {
+public class BlockScript : MonoBehaviour {
 
 	public int pedLimit;
 

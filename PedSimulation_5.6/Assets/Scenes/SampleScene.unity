@@ -222,6 +222,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1313342585}
   nextWaypoint: {fileID: 403607573}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -560,6 +561,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1916322747}
   nextWaypoint: {fileID: 1527925526}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -734,6 +736,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 858010360}
   nextWaypoint: {fileID: 1666636911}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -782,6 +785,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 39484805}
   nextWaypoint: {fileID: 232542526}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -912,6 +916,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1739126073}
   nextWaypoint: {fileID: 1545504472}
+  block: {fileID: 0}
   radius: 1
   branches:
   - {fileID: 954526613}
@@ -961,6 +966,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 607265118}
   nextWaypoint: {fileID: 680991220}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -1009,6 +1015,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1347243310}
   nextWaypoint: {fileID: 28478556}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -1057,6 +1064,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2012101762}
   nextWaypoint: {fileID: 2054171817}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -1105,6 +1113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 152884459}
   nextWaypoint: {fileID: 505706516}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -1809,6 +1818,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 966806181}
   nextWaypoint: {fileID: 574892129}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -1870,6 +1880,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1963780147}
   nextWaypoint: {fileID: 1677995264}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -2069,6 +2080,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 434955390}
   nextWaypoint: {fileID: 829526376}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -2117,6 +2129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1527925526}
   nextWaypoint: {fileID: 258879836}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -2409,6 +2422,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &105266228
 Transform:
   m_ObjectHideFlags: 0
@@ -2461,6 +2476,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2040470394}
   nextWaypoint: {fileID: 1537648798}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -2591,6 +2607,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1960185253}
   nextWaypoint: {fileID: 393194518}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -2719,6 +2736,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &120738021
 Transform:
   m_ObjectHideFlags: 0
@@ -3181,6 +3200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1772535327}
   nextWaypoint: {fileID: 845861848}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -3393,6 +3413,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2028321913}
   nextWaypoint: {fileID: 1260711034}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -3769,6 +3790,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1421885575}
   nextWaypoint: {fileID: 50285872}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -4309,6 +4331,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2067932092}
   nextWaypoint: {fileID: 1597608319}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -4577,6 +4600,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1220941689}
   nextWaypoint: {fileID: 427783899}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -4707,6 +4731,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1286356798}
   nextWaypoint: {fileID: 1567898283}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -5165,6 +5190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1174099990}
   nextWaypoint: {fileID: 1466024003}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -5213,6 +5239,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 432397384}
   nextWaypoint: {fileID: 450173994}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -5261,6 +5288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1493230779}
   nextWaypoint: {fileID: 858010360}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -5391,6 +5419,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 468773142}
   nextWaypoint: {fileID: 824302519}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -5439,6 +5468,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1168203813}
   nextWaypoint: {fileID: 1916322747}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -5569,6 +5599,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 956361283}
   nextWaypoint: {fileID: 396175442}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -5697,6 +5728,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &220598244
 Transform:
   m_ObjectHideFlags: 0
@@ -5762,6 +5795,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1173650298}
   nextWaypoint: {fileID: 1002811249}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -5797,6 +5831,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 858670190}
   nextWaypoint: {fileID: 1942330372}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -5971,6 +6006,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 28478556}
   nextWaypoint: {fileID: 1139003791}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -6593,6 +6629,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 845187076}
   nextWaypoint: {fileID: 434955390}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -6654,6 +6691,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 97597044}
   nextWaypoint: {fileID: 1262473073}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -6784,6 +6822,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 396175442}
   nextWaypoint: {fileID: 1718102137}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -7147,6 +7186,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1494411779}
   nextWaypoint: {fileID: 596046763}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -7195,6 +7235,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 840962945}
   nextWaypoint: {fileID: 1421885575}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -7325,6 +7366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1713671906}
   nextWaypoint: {fileID: 1797624261}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -7455,6 +7497,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2062080252}
   nextWaypoint: {fileID: 987453545}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -7667,6 +7710,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 661691704}
   nextWaypoint: {fileID: 577118385}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -7728,6 +7772,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1760271290}
   nextWaypoint: {fileID: 667204337}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -7776,6 +7821,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1597608319}
   nextWaypoint: {fileID: 456371105}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -8057,6 +8103,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1553710116}
   nextWaypoint: {fileID: 1708590307}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -8597,6 +8644,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1942330372}
   nextWaypoint: {fileID: 1414092060}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -8973,6 +9021,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1252862726}
   nextWaypoint: {fileID: 1438587729}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -9267,6 +9316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 385343356}
   nextWaypoint: {fileID: 1299815341}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -9561,6 +9611,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 677260858}
   nextWaypoint: {fileID: 561765281}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -9994,6 +10045,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 393194518}
   nextWaypoint: {fileID: 346448555}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -10111,6 +10163,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 117726666}
   nextWaypoint: {fileID: 385343356}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -10241,6 +10294,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 218271241}
   nextWaypoint: {fileID: 261338674}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -10535,6 +10589,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 5273702}
   nextWaypoint: {fileID: 551508269}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -10581,6 +10636,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &406798841
 Transform:
   m_ObjectHideFlags: 0
@@ -10879,6 +10936,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 762174047}
   nextWaypoint: {fileID: 858433187}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -11009,6 +11067,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2105707401}
   nextWaypoint: {fileID: 814821880}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -11234,6 +11293,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1397796064}
   nextWaypoint: {fileID: 942206039}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -11269,6 +11329,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1465389367}
   nextWaypoint: {fileID: 1812833233}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -11361,6 +11422,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 186667200}
   nextWaypoint: {fileID: 1886359314}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -11489,6 +11551,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &428512460
 Transform:
   m_ObjectHideFlags: 0
@@ -11705,6 +11769,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1032092586}
   nextWaypoint: {fileID: 1477028297}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -11753,6 +11818,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1769734186}
   nextWaypoint: {fileID: 207146157}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -11965,6 +12031,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 254269994}
   nextWaypoint: {fileID: 96570787}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -12095,6 +12162,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1812833233}
   nextWaypoint: {fileID: 1981222227}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -12307,6 +12375,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 769476814}
   nextWaypoint: {fileID: 762174047}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -12450,6 +12519,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 207146157}
   nextWaypoint: {fileID: 803370307}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -12693,6 +12763,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 289777925}
   nextWaypoint: {fileID: 1700699665}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -12741,6 +12812,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 506238631}
   nextWaypoint: {fileID: 1449900283}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -13117,6 +13189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1131887263}
   nextWaypoint: {fileID: 210924481}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -13494,6 +13567,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &473818693
 Transform:
   m_ObjectHideFlags: 0
@@ -13546,6 +13621,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1299815341}
   nextWaypoint: {fileID: 1488678446}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -13592,6 +13668,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &482079698
 Transform:
   m_ObjectHideFlags: 0
@@ -13740,6 +13818,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1708590307}
   nextWaypoint: {fileID: 966806181}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -13939,6 +14018,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1981222227}
   nextWaypoint: {fileID: 1090970850}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -13987,6 +14067,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 591393409}
   nextWaypoint: {fileID: 887251516}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -14048,6 +14129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 50285872}
   nextWaypoint: {fileID: 2124581180}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -14083,6 +14165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2087670829}
   nextWaypoint: {fileID: 462051898}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -14459,6 +14542,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 874186571}
   nextWaypoint: {fileID: 1465389367}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -14507,6 +14591,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1226082492}
   nextWaypoint: {fileID: 1191258126}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -14599,6 +14684,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1090970850}
   nextWaypoint: {fileID: 874186571}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -14811,6 +14897,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 886724030}
   nextWaypoint: {fileID: 1482020137}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -14941,6 +15028,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1581849533}
   nextWaypoint: {fileID: 1585269020}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -15235,6 +15323,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 403607573}
   nextWaypoint: {fileID: 1649002951}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -15529,6 +15618,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 368732934}
   nextWaypoint: {fileID: 2114056415}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -15905,6 +15995,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 845861848}
   nextWaypoint: {fileID: 1095101770}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -16117,6 +16208,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1143627965}
   nextWaypoint: {fileID: 699787363}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -16165,6 +16257,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 84960682}
   nextWaypoint: {fileID: 591393409}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -16213,6 +16306,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 283139209}
   nextWaypoint: {fileID: 1769734186}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -16589,6 +16683,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 574892129}
   nextWaypoint: {fileID: 504648477}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -16681,6 +16776,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 267553144}
   nextWaypoint: {fileID: 1883734391}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -16811,6 +16907,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1095101770}
   nextWaypoint: {fileID: 32043233}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -17105,6 +17202,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1871214319}
   nextWaypoint: {fileID: 1397796064}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -17598,6 +17696,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 772062393}
   nextWaypoint: {fileID: 283139209}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -18004,6 +18103,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 284263646}
   nextWaypoint: {fileID: 1621666961}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -18298,6 +18398,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 711353192}
   nextWaypoint: {fileID: 368732934}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -18510,6 +18611,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 861160280}
   nextWaypoint: {fileID: 1693890526}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -18571,6 +18673,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 32043233}
   nextWaypoint: {fileID: 1066529881}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -18934,6 +19037,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 574336764}
   nextWaypoint: {fileID: 1606388265}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -19375,6 +19479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1438587729}
   nextWaypoint: {fileID: 677260858}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -19503,6 +19608,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &712655813
 Transform:
   m_ObjectHideFlags: 0
@@ -19555,6 +19662,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1700699665}
   nextWaypoint: {fileID: 1085317088}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -19603,6 +19711,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2077611727}
   nextWaypoint: {fileID: 1064811425}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -20471,6 +20580,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 844714062}
   nextWaypoint: {fileID: 2102984134}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -20601,6 +20711,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1808694905}
   nextWaypoint: {fileID: 1313342585}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -20813,6 +20924,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 449658891}
   nextWaypoint: {fileID: 411211009}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -20874,6 +20986,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1446005373}
   nextWaypoint: {fileID: 1226082492}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -20991,6 +21104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1915454123}
   nextWaypoint: {fileID: 858670190}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -21039,6 +21153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1260711034}
   nextWaypoint: {fileID: 449658891}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -21087,6 +21202,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1039428201}
   nextWaypoint: {fileID: 661691704}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -21791,6 +21907,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 450173994}
   nextWaypoint: {fileID: 1039428201}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -21839,6 +21956,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 412164365}
   nextWaypoint: {fileID: 1739126073}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -21969,6 +22087,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 210924481}
   nextWaypoint: {fileID: 1579212795}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -22017,6 +22136,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1230818347}
   nextWaypoint: {fileID: 947223224}
+  block: {fileID: 0}
   radius: 1
   branches:
   - {fileID: 934524940}
@@ -22066,6 +22186,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 96570787}
   nextWaypoint: {fileID: 2073933850}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -22358,6 +22479,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &840128841
 Transform:
   m_ObjectHideFlags: 0
@@ -22410,6 +22533,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1567898283}
   nextWaypoint: {fileID: 267980422}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -22458,6 +22582,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1579212795}
   nextWaypoint: {fileID: 1418535011}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -22506,6 +22631,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1883734391}
   nextWaypoint: {fileID: 750904813}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -22554,6 +22680,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1002811249}
   nextWaypoint: {fileID: 254269994}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -22602,6 +22729,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 132592655}
   nextWaypoint: {fileID: 572659433}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -22694,6 +22822,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1866311864}
   nextWaypoint: {fileID: 1446005373}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -22988,6 +23117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 207678709}
   nextWaypoint: {fileID: 25434379}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -23049,6 +23179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 411211009}
   nextWaypoint: {fileID: 0}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -23084,6 +23215,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 768685720}
   nextWaypoint: {fileID: 224722315}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -23214,6 +23346,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2102984134}
   nextWaypoint: {fileID: 678878752}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -23659,6 +23792,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 523588514}
   nextWaypoint: {fileID: 514289799}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -23776,6 +23910,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1422255411}
   nextWaypoint: {fileID: 1984849972}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -24152,6 +24287,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1606388265}
   nextWaypoint: {fileID: 535994106}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -24200,6 +24336,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 504648477}
   nextWaypoint: {fileID: 1553710116}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -24412,6 +24549,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1316182898}
   nextWaypoint: {fileID: 1834758793}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -24668,6 +24806,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1794072292}
   nextWaypoint: {fileID: 1485602128}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -25372,6 +25511,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 827941039}
   nextWaypoint: {fileID: 1399710636}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -25546,6 +25686,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1666636911}
   nextWaypoint: {fileID: 1640012361}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -25594,6 +25735,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 420203849}
   nextWaypoint: {fileID: 1963000753}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -25724,6 +25866,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 827941039}
   nextWaypoint: {fileID: 1524502161}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -25949,6 +26092,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1139003791}
   nextWaypoint: {fileID: 1095489725}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -26068,6 +26212,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 30185290}
   nextWaypoint: {fileID: 643576760}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -26198,6 +26343,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1092408059}
   nextWaypoint: {fileID: 218271241}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -26565,6 +26711,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 486996802}
   nextWaypoint: {fileID: 84960682}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -26954,6 +27101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1114735158}
   nextWaypoint: {fileID: 1144610987}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -27002,6 +27150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 276389559}
   nextWaypoint: {fileID: 1316182898}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -27573,6 +27722,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 221722231}
   nextWaypoint: {fileID: 845187076}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -28029,6 +28179,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1024000409
 Transform:
   m_ObjectHideFlags: 0
@@ -28081,6 +28233,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1739686985}
   nextWaypoint: {fileID: 2049480373}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -28127,6 +28280,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1028678809
 Transform:
   m_ObjectHideFlags: 0
@@ -28261,6 +28416,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1414092060}
   nextWaypoint: {fileID: 432378761}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -28309,6 +28465,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2073933850}
   nextWaypoint: {fileID: 1173650298}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -28439,6 +28596,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 803370307}
   nextWaypoint: {fileID: 772062393}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -28569,6 +28727,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1144610987}
   nextWaypoint: {fileID: 2009632564}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -28945,6 +29104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1393716276}
   nextWaypoint: {fileID: 2028321913}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -29075,6 +29235,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 716318786}
   nextWaypoint: {fileID: 1347243310}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -29123,6 +29284,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 680991220}
   nextWaypoint: {fileID: 1535209621}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -29169,6 +29331,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1069254656
 Transform:
   m_ObjectHideFlags: 0
@@ -29547,6 +29711,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1085257439
 Transform:
   m_ObjectHideFlags: 0
@@ -29599,6 +29765,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 713368458}
   nextWaypoint: {fileID: 1870803490}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -29647,6 +29814,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 502079435}
   nextWaypoint: {fileID: 523588514}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -29695,6 +29863,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1395445472}
   nextWaypoint: {fileID: 956361283}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -29825,6 +29994,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 572659433}
   nextWaypoint: {fileID: 607265118}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -29873,6 +30043,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1472802994}
   nextWaypoint: {fileID: 1560257228}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -29921,6 +30092,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 950881561}
   nextWaypoint: {fileID: 2077611727}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -30460,6 +30632,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1449900283}
   nextWaypoint: {fileID: 1114735158}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -30508,6 +30681,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1113852096}
   nextWaypoint: {fileID: 986180756}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -30651,6 +30825,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1663550745}
   nextWaypoint: {fileID: 2083824942}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -30976,6 +31151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2083824942}
   nextWaypoint: {fileID: 468773142}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -31188,6 +31364,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 232542526}
   nextWaypoint: {fileID: 950881561}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -31236,6 +31413,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1302119411}
   nextWaypoint: {fileID: 574336764}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -31284,6 +31462,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 986180756}
   nextWaypoint: {fileID: 1046108258}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -31824,6 +32003,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1297906352}
   nextWaypoint: {fileID: 1683723380}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -31872,6 +32052,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1700067318}
   nextWaypoint: {fileID: 211994695}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -32166,6 +32347,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1035215040}
   nextWaypoint: {fileID: 221722231}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -32214,6 +32396,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1191258126}
   nextWaypoint: {fileID: 205219940}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -32590,6 +32773,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 515609472}
   nextWaypoint: {fileID: 1174099990}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -32636,6 +32820,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1207472741
 Transform:
   m_ObjectHideFlags: 0
@@ -33394,6 +33580,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1524502161}
   nextWaypoint: {fileID: 186667200}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -33442,6 +33629,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 765379584}
   nextWaypoint: {fileID: 515609472}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -33490,6 +33678,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1675419936}
   nextWaypoint: {fileID: 827941039}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -33784,6 +33973,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1949030797}
   nextWaypoint: {fileID: 1395445472}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -33914,6 +34104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1405686893}
   nextWaypoint: {fileID: 333181090}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -33962,6 +34153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1963000753}
   nextWaypoint: {fileID: 1739686985}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -34010,6 +34202,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 140013674}
   nextWaypoint: {fileID: 769476814}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -34058,6 +34251,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 258879836}
   nextWaypoint: {fileID: 1371917815}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -34206,6 +34400,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1482020137}
   nextWaypoint: {fileID: 1734823132}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -34664,6 +34859,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2124581180}
   nextWaypoint: {fileID: 191268339}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -35202,6 +35398,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1297218582
 Transform:
   m_ObjectHideFlags: 0
@@ -35349,6 +35547,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1585269020}
   nextWaypoint: {fileID: 1167301578}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -35510,6 +35709,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 346448555}
   nextWaypoint: {fileID: 474276788}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -35571,6 +35771,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1734823132}
   nextWaypoint: {fileID: 1143627965}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -35865,6 +36066,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 754681425}
   nextWaypoint: {fileID: 5273702}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -35982,6 +36184,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 987453545}
   nextWaypoint: {fileID: 895800475}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -36850,6 +37053,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1064811425}
   nextWaypoint: {fileID: 39484805}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -36898,6 +37102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1625832272}
   nextWaypoint: {fileID: 1806353429}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -37318,6 +37523,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1262473073}
   nextWaypoint: {fileID: 1700067318}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -37820,6 +38026,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1718102137}
   nextWaypoint: {fileID: 1949030797}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -37868,6 +38075,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 858433187}
   nextWaypoint: {fileID: 1060706442}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -37916,6 +38124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1246197885}
   nextWaypoint: {fileID: 1092408059}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -37964,6 +38173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1870803490}
   nextWaypoint: {fileID: 2067932092}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -38012,6 +38222,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 629138242}
   nextWaypoint: {fileID: 420203849}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -38148,6 +38359,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2020563641}
   nextWaypoint: {fileID: 1252862726}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -38581,6 +38793,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 328503394}
   nextWaypoint: {fileID: 1032092586}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -38616,6 +38829,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 843363898}
   nextWaypoint: {fileID: 1663550745}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -38746,6 +38960,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 267980422}
   nextWaypoint: {fileID: 152884459}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -38794,6 +39009,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1758908498}
   nextWaypoint: {fileID: 876452787}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -39088,6 +39304,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2113183312}
   nextWaypoint: {fileID: 1960185253}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -39262,6 +39479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 333181090}
   nextWaypoint: {fileID: 711353192}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -39310,6 +39528,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 848261322}
   nextWaypoint: {fileID: 765379584}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -39358,6 +39577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 462051898}
   nextWaypoint: {fileID: 1113852096}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -39816,6 +40036,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 514289799}
   nextWaypoint: {fileID: 426500821}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -39946,6 +40167,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 205219940}
   nextWaypoint: {fileID: 1866311864}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -39994,6 +40216,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1683723380}
   nextWaypoint: {fileID: 1095452640}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -40042,6 +40265,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 432378761}
   nextWaypoint: {fileID: 1915454123}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -40336,6 +40560,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 535994106}
   nextWaypoint: {fileID: 1274285898}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -40384,6 +40609,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 914408580}
   nextWaypoint: {fileID: 2040470394}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -40432,6 +40658,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 474276788}
   nextWaypoint: {fileID: 2113183312}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -40562,6 +40789,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2028858074}
   nextWaypoint: {fileID: 207678709}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -40610,6 +40838,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1693890526}
   nextWaypoint: {fileID: 267553144}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -40864,6 +41093,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1502506963
 Transform:
   m_ObjectHideFlags: 0
@@ -40929,6 +41160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1640012361}
   nextWaypoint: {fileID: 1783418042}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -41046,6 +41278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 947223224}
   nextWaypoint: {fileID: 1220941689}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -41094,6 +41327,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 21246512}
   nextWaypoint: {fileID: 97597044}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -41224,6 +41458,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1066529881}
   nextWaypoint: {fileID: 1772535327}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -41272,6 +41507,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 109795104}
   nextWaypoint: {fileID: 1625540731}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -41320,6 +41556,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 30185290}
   nextWaypoint: {fileID: 1963780147}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -41366,6 +41603,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1545828477
 Transform:
   m_ObjectHideFlags: 0
@@ -41500,6 +41739,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 887251516}
   nextWaypoint: {fileID: 305525883}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -42053,6 +42293,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1886359314}
   nextWaypoint: {fileID: 1675419936}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -42170,6 +42411,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1095452640}
   nextWaypoint: {fileID: 1918385957}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -42464,6 +42706,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 191268339}
   nextWaypoint: {fileID: 840962945}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -42638,6 +42881,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1677995264}
   nextWaypoint: {fileID: 2105707401}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -42684,6 +42928,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1575151759
 Transform:
   m_ObjectHideFlags: 0
@@ -42818,6 +43064,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 824302519}
   nextWaypoint: {fileID: 843363898}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -42866,6 +43113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1918385957}
   nextWaypoint: {fileID: 538425309}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -42996,6 +43244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 538425309}
   nextWaypoint: {fileID: 1297906352}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -43044,6 +43293,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1955171352}
   nextWaypoint: {fileID: 1808694905}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -43092,6 +43342,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 179610932}
   nextWaypoint: {fileID: 289777925}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -43473,6 +43724,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 699787363}
   nextWaypoint: {fileID: 886724030}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -43811,6 +44063,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 667204337}
   nextWaypoint: {fileID: 1713671906}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -43941,6 +44194,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1537648798}
   nextWaypoint: {fileID: 1625832272}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -44002,6 +44256,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1625540731}
   nextWaypoint: {fileID: 1350019628}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -44199,6 +44454,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1637310127
 Transform:
   m_ObjectHideFlags: 0
@@ -44251,6 +44508,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 937493317}
   nextWaypoint: {fileID: 1516046822}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -44463,6 +44721,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 551508269}
   nextWaypoint: {fileID: 2053920078}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -44839,6 +45098,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1418535011}
   nextWaypoint: {fileID: 1118153067}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -44887,6 +45147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 25434379}
   nextWaypoint: {fileID: 937493317}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -45017,6 +45278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1557777004}
   nextWaypoint: {fileID: 1230818347}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -45147,6 +45409,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 89802398}
   nextWaypoint: {fileID: 1571008566}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -45359,6 +45622,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1167301578}
   nextWaypoint: {fileID: 1472802994}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -45697,6 +45961,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 678878752}
   nextWaypoint: {fileID: 1494411779}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -45827,6 +46092,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1371917815}
   nextWaypoint: {fileID: 1168203813}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -45957,6 +46223,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 456371105}
   nextWaypoint: {fileID: 713368458}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -46005,6 +46272,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 305525883}
   nextWaypoint: {fileID: 486996802}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -46217,6 +46485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1621666961}
   nextWaypoint: {fileID: 273413477}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -46347,6 +46616,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 261338674}
   nextWaypoint: {fileID: 1392991986}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -46475,6 +46745,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1725114130
 Transform:
   m_ObjectHideFlags: 0
@@ -46527,6 +46799,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1274285898}
   nextWaypoint: {fileID: 1302119411}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -46657,6 +46930,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 814821880}
   nextWaypoint: {fileID: 30185290}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -46705,6 +46979,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1260564823}
   nextWaypoint: {fileID: 1024335172}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -47163,6 +47438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1834758793}
   nextWaypoint: {fileID: 1422255411}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -47211,6 +47487,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2054171817}
   nextWaypoint: {fileID: 284263646}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -47423,6 +47700,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 577118385}
   nextWaypoint: {fileID: 432397384}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -47553,6 +47831,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1535209621}
   nextWaypoint: {fileID: 132592655}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -47765,6 +48044,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1516046822}
   nextWaypoint: {fileID: 2028858074}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -47811,6 +48091,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1783638055
 Transform:
   m_ObjectHideFlags: 0
@@ -48109,6 +48391,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1806353429}
   nextWaypoint: {fileID: 914408580}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -48157,6 +48440,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 273413477}
   nextWaypoint: {fileID: 2012101762}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -48205,6 +48489,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1350019628}
   nextWaypoint: {fileID: 1794072292}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -48335,6 +48620,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1590919420}
   nextWaypoint: {fileID: 754681425}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -48465,6 +48751,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 426500821}
   nextWaypoint: {fileID: 442138007}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -48923,6 +49210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 895800475}
   nextWaypoint: {fileID: 1758908498}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -49299,6 +49587,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1466024003}
   nextWaypoint: {fileID: 848261322}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -49347,6 +49636,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1085317088}
   nextWaypoint: {fileID: 1395889398}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -49395,6 +49685,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2049480373}
   nextWaypoint: {fileID: 629138242}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -49702,6 +49993,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 596046763}
   nextWaypoint: {fileID: 844714062}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -49737,6 +50029,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 427783899}
   nextWaypoint: {fileID: 1557777004}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -50101,6 +50394,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1894484677
 Transform:
   m_ObjectHideFlags: 0
@@ -50277,6 +50572,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1903373409
 Transform:
   m_ObjectHideFlags: 0
@@ -50575,6 +50872,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1477028297}
   nextWaypoint: {fileID: 768685720}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -50623,6 +50921,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 211994695}
   nextWaypoint: {fileID: 21246512}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -50671,6 +50970,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1560257228}
   nextWaypoint: {fileID: 1581849533}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -51293,6 +51593,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 224722315}
   nextWaypoint: {fileID: 328503394}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -51341,6 +51642,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1392991986}
   nextWaypoint: {fileID: 1246197885}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -51387,6 +51689,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1949505406
 Transform:
   m_ObjectHideFlags: 0
@@ -51483,6 +51787,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2053920078}
   nextWaypoint: {fileID: 1590919420}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -51531,6 +51836,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1431340945}
   nextWaypoint: {fileID: 117726666}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -51743,6 +52049,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 942206039}
   nextWaypoint: {fileID: 1260564823}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -51791,6 +52098,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1545504472}
   nextWaypoint: {fileID: 89802398}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -52167,6 +52475,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 442138007}
   nextWaypoint: {fileID: 502079435}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -52215,6 +52524,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 876452787}
   nextWaypoint: {fileID: 2062080252}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -52507,6 +52817,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &1991752924
 Transform:
   m_ObjectHideFlags: 0
@@ -52805,6 +53117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1046108258}
   nextWaypoint: {fileID: 2087670829}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -53017,6 +53330,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1797624261}
   nextWaypoint: {fileID: 43946237}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -53145,6 +53459,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &2015893909
 Transform:
   m_ObjectHideFlags: 0
@@ -53292,6 +53608,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2114056415}
   nextWaypoint: {fileID: 1405686893}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -53327,6 +53644,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1060706442}
   nextWaypoint: {fileID: 140013674}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -53375,6 +53693,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1783418042}
   nextWaypoint: {fileID: 1493230779}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -53587,6 +53906,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1485602128}
   nextWaypoint: {fileID: 109795104}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -54045,6 +54365,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1024335172}
   nextWaypoint: {fileID: 1871214319}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -54339,6 +54660,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1649002951}
   nextWaypoint: {fileID: 1955171352}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -54387,6 +54709,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 43946237}
   nextWaypoint: {fileID: 1760271290}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -54517,6 +54840,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1984849972}
   nextWaypoint: {fileID: 276389559}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -54647,6 +54971,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1395889398}
   nextWaypoint: {fileID: 179610932}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -54859,6 +55184,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 829526376}
   nextWaypoint: {fileID: 1035215040}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -54989,6 +55315,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1095489725}
   nextWaypoint: {fileID: 716318786}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -55119,6 +55446,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1118153067}
   nextWaypoint: {fileID: 1131887263}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -55331,6 +55659,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2009632564}
   nextWaypoint: {fileID: 506238631}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -55543,6 +55872,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 750904813}
   nextWaypoint: {fileID: 861160280}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -55591,6 +55921,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1571008566}
   nextWaypoint: {fileID: 412164365}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -55803,6 +56134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1488678446}
   nextWaypoint: {fileID: 1431340945}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -55933,6 +56265,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 561765281}
   nextWaypoint: {fileID: 2020563641}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -56025,6 +56358,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 505706516}
   nextWaypoint: {fileID: 1286356798}
+  block: {fileID: 0}
   radius: 1
   branches: []
   branchFactor: 0.5
@@ -56094,6 +56428,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!1 &2130911272
 GameObject:
   m_ObjectHideFlags: 0
@@ -56121,6 +56457,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0456b06dc1a7d54faa69ed705083fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pedLimit: 10
+  pedCount: 0
 --- !u!4 &2130911274
 Transform:
   m_ObjectHideFlags: 0

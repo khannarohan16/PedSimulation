@@ -10,7 +10,7 @@ public class OuterCollider : MonoBehaviour {
 	{
 		if((_point = other.GetComponent<Waypoint>()) != null)
 		{
-			if (!pedSpawner.spawnPoints.Contains(_point))
+			if (!pedSpawner.spawnPoints.Contains(_point) && !_point.isCrossing)
 			{
 				pedSpawner.spawnPoints.Add(_point);
 			}

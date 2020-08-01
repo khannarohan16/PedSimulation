@@ -18,16 +18,19 @@ public class Waypoint : MonoBehaviour {
 	[Range(0f,1f)]
 	public float branchFactor = 0.5f; //How likely is the pedsetrain taking branch
 	public bool isBranch = false;   //To be set if the waypoint is branch of some node
-	public bool isCrossing = false;
-	public bool canCross = true;
+	
+	public bool isCrossing = false;	//To determine whether this waypoint is of crossing
+	public bool canCross = true;	//Controlled by signal if the waypoint is of crossing
 
 	void Awake()
 	{
 		SphereCollider col = gameObject.AddComponent<SphereCollider>();
 		col.radius = 1f;
 		col.isTrigger = true;
-		block = GetComponentInParent<BlockScript>();
-		//gameObject.tag = "Waypoint";
+		if (!isCrossing)
+		{
+			block = GetComponentInParent<BlockScript>();
+		}
 	}
 	
 	public Vector3 GetPosition()
